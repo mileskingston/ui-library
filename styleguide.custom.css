@@ -1,0 +1,182 @@
+#theme-switcher {
+  position: fixed;
+  top: 0;
+  right: 120px;
+  background: #fff;
+  z-index: 1000;
+  padding: 10px 20px;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#rsg-root [data-preview] {
+  overflow: visible;
+  font: 13px/1.231 Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+#rsg-root [data-preview] * {
+  box-sizing: border-box;
+}
+
+#rsg-root [data-preview]:before,
+#rsg-root [data-preview]::after {
+  content: "";
+  display: table;
+}
+
+#rsg-root [data-preview]:after {
+  clear: both;
+}
+
+.dc-menu-trigger {
+  float: right;
+}
+
+.icons-list .dc-icon {
+  margin-right: 5px;
+}
+
+.sg-gutter-bottom > .dc-button {
+  margin-bottom: 10px;
+}
+.sg-icon-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sg-icon-preview .sg-icon-preview__icon {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.sg-icon-preview .sg-icon-preview__icon--hide {
+  display: none;
+}
+
+.sg-icon-preview .sg-icon-preview__icon strong {
+  font-size: small;
+  margin-top: 10px;
+}
+
+.sg-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.sg-palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sg-palette__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  flex-basis: 24%;
+  margin-bottom: 10px;
+  background: whitesmoke;
+}
+
+.sg-palette__empty-item {
+  display: flex;
+  flex-basis: 24%;
+  margin-bottom: 10px;
+}
+
+.sg-palette__item .sg-color {
+  width: 100%;
+  height: 100px;
+  background: currentColor;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid black;
+}
+
+.sg-palette__item-variants {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.sg-palette__item-variants li {
+  padding: 5px 0 0;
+}
+
+.dc-sg-palette {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dc-sg-palette li {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.dc-sg-palette li div {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.dc-sg-palette li .dc-sg-color {
+  width: 50px;
+  height: 100%;
+  background: currentColor;
+  border: 2px solid black;
+}
+
+blockquote.sg-example {
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+blockquote.sg-example--good {
+  border-left: 5px solid green;
+}
+
+blockquote.sg-example--good:before {
+  position: relative;
+  top: -5px;
+  display: block;
+  content: 'Do this';
+  color: green;
+  font-size: small;
+}
+
+blockquote.sg-example--bad {
+  border-left: 5px solid red;
+}
+
+blockquote.sg-example--bad:before {
+  position: relative;
+  top: -5px;
+  display: block;
+  content: 'Don\'t do this';
+  color: red;
+  font-size: small;
+}
+
+.sg-checkbox {
+  position: relative;
+  float: left;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.sg-quick-account-wrapper {
+  max-width: 320px;
+  padding: 20px 20px 8px !important;
+  margin: 0 auto;
+}

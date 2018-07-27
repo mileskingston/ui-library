@@ -1,0 +1,102 @@
+@import "../../style/constants";
+
+.dc-address-finder {
+  padding-bottom: 15px;
+  
+  .dc-text-error,
+  .dc-input-hint {
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+  
+  .dc-button-wrapper {
+    position: static;
+  }
+  
+  .dc-address-finder__wrapper {
+    position: relative;
+  }
+  
+  .dc-tooltip-floating {
+    z-index: 3;
+    margin-top: 15px;
+    text-align: left;
+    
+    @media $desktop {
+      top: -10px;
+      left: 104%;
+      margin: 0;
+      width: 50%;
+    }
+  
+    @media $wide {
+      top: -10px;
+      left: 104%;
+      margin: 0;
+      width: 50%;
+    }
+  }
+  
+  .dc-tooltip.dc-tooltip-arrow-mobile-top:before {
+    right: 25%;
+  }
+  
+  .dc-tooltip.dc-tooltip-arrow-left:before {
+    @media $desktop {
+      top: 32px;
+    }
+  
+    @media $wide {
+      top: 32px;
+    }
+  }
+}
+
+.dc-address-finder__wrapper {
+  margin-right: 10px;
+
+  &--no-find-button {
+    margin-right: 0;
+
+    .dc-address-finder__input {
+      float: none;
+      width: auto;
+    }
+  }
+}
+
+.dc-address-finder__input {
+  width: 55%;
+  float: left;
+  
+  .dc-form-item {
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+}
+
+.dc-address-finder__button {
+  width: 45%;
+  float: right;
+}
+
+.dc-address-finder__dropdown {
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: 5px 10px 5px 0;
+  padding: 0;
+  max-height: 210px;
+}
+
+.dc-address-finder__dropdown__item {
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 20px;
+  height: 42px;
+  list-style: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $dc-color-message-hover;
+  }
+}

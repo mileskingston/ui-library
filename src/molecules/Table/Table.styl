@@ -1,0 +1,53 @@
+@import "../../style/constants";
+
+.dc-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: $dc-color-gs-0;
+  font-size: $font-size-xs;
+
+  td, th {
+    text-align: left;
+  }
+}
+
+.dc-table-last-indented:last-child {
+  th, td, tr {
+    padding-top: 7px !important;
+    vertical-align: middle;
+  }
+}
+
+.dc-table-caption {
+  padding: $spacing-xxs;
+  color: #999;
+  text-align: left;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+}
+
+.dc-cell {
+  padding: $spacing-xxs 0 $spacing-xxs $spacing-m;
+  text-align: left;
+}
+
+.dc-table-cell-default {
+  padding: 12px 20px;
+  border: 1px solid $dc-color-gs-5;
+  
+  @media $mobile {
+    padding: 10px;
+  }
+}
+
+.dc-table-head-default {
+  padding: 15px 20px;
+  border: 1px solid $dc-color-gs-5;
+  background-color: $dc-color-gs-6;
+  
+  @media $mobile {
+    padding: 10px;
+  }
+}

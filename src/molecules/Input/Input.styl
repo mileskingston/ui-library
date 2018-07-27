@@ -1,0 +1,133 @@
+@import "../../style/constants";
+
+.dc-input-wrapper {
+  position: relative;
+  display: block;
+  padding: 0;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  background-color: $dc-color-gs-7;
+}
+
+/* Needs to be nested to overwrite Currys reset styles */
+[data-component] {
+  .dc-input {
+    position: relative;
+    z-index: 1;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 13px $spacing-m;
+    width: 100%;
+    outline: 0;
+    border: 1px solid $dc-color-gs-5;
+    border-radius: 4px;
+    background-color: transparent !important;
+    box-shadow: none;
+    color: $dc-color-gs-2;
+    font-size: $font-size-xs;
+    transition: border 0.2s;
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    // Remove default cross in IE
+    &::-ms-clear {
+      display: none;
+    }
+
+    &__clear-icon {
+      position: absolute;
+      top: 10px;
+      right: 5px;
+      z-index: 500;
+
+      .dc-close {
+        padding: 10px;
+        background: $dc-color-gs-7;
+      }
+    }
+  }
+
+  .dc-input-invalid {
+    border-color: $dc-color-price;
+  }
+  .dc-input-focused:focus {
+    border-color: $dc-color-dirty-yellow;
+  }
+  .dc-input-valid {
+    border-color: $color-secondary-a-2;
+  }
+  .dc-input-disabled,
+  .dc-input-disabled:focus,
+  .dc-input-disabled:active {
+    border-color: #e1e1e1;
+    background-color: #f7f7f7 !important;
+    color: $dc-color-gs-2;
+    opacity: 1;
+    -webkit-opacity: 1;
+    -webkit-text-fill-color: $dc-color-gs-2; // @stylint ignore
+  }
+  .dc-input-password {
+    padding-right: 50px;
+  }
+  .dc-input-icon-left {
+    padding-left: $spacing-xxxl;
+  }
+  .dc-input-clear-icon {
+    padding-right: 45px;
+  }
+}
+
+.dc-input-hint {
+  display: block;
+  margin: 5px 0;
+  color: $dc-color-gs-3;
+  font-size: $font-size-xxs;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.dc-input-toggle {
+  position: absolute;
+  top: 14px;
+  right: 11px;
+  z-index: 3;
+  font-size: $font-size-xxs;
+  color: $dc-color-link;
+}
+
+.dc-input-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  .dc-icon {
+    width: 20px;
+    height: 20px;
+    fill: $dc-color-gs-5;
+    stroke: $dc-color-gs-5;
+  }
+
+  .dc-icon-search {
+    stroke: transparent;
+  }
+}
+
+.dc-form-item-label {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  z-index: 0;
+  padding: 0;
+  width: auto;
+  color: $dc-color-gs-3;
+  font-size: $font-size-xs;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+  transform: translate3d(0, 0, 0);
+}

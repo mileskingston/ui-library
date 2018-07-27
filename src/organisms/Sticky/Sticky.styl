@@ -1,0 +1,63 @@
+@import "../../style/constants";
+
+#content {
+  transform: none;
+}
+
+.dc-sticky-container {
+  margin-bottom: -15px;
+  
+  @media $tablet {
+    margin-bottom: -10px;
+  }
+  
+  @media $mobile {
+    margin-bottom: -7px;
+  }
+}
+  
+.dc-sticky {
+  position: relative;
+  z-index: 10;
+  padding: 15px 0;
+  background-color: transparent;
+  transition: $transition-time-s ease;
+    
+  .dc-heading {
+    margin: 0;
+  }
+    
+  @media $tablet {
+    padding: 10px 0;
+  }
+           
+  @media $mobile {
+    padding: 7px 0;
+  }
+}
+  
+.dc-sticky-sticked {
+  background-color: #fff;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    display: block;
+    width: 10px;
+    background-color: #fff;
+    content: "";
+  }
+  
+  &:after {
+    position: absolute;
+    bottom: -7px;
+    display: block;
+    width: 90%;
+    height: 7px;
+    background: radial-gradient(ellipse farthest-side at 50% 0, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 100%);
+    content: "";
+    text-align: center;
+  }
+}

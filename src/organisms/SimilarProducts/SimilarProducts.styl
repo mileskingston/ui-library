@@ -1,0 +1,49 @@
+@import "../../style/constants";
+
+.dc-similar-products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: $spacing-xxs;
+
+  @media $tablet {
+    padding-right: $spacing-xs;
+  }
+
+  @media $desktop {
+    flex-wrap: nowrap;
+    padding-right: $spacing-xxl;
+  }
+
+  &__item {
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    align-content: center;
+
+    @media $mobile {
+      flex-basis: 50%;
+      margin-right: -($spacing-xxs);
+      padding: $spacing-xxs;
+    }
+
+    /**
+     * Microsoft Lumia 640 XL LTE workaround
+     *
+     * Lumia has really small width and does not handle negative margin properly
+     */
+    @media only screen and (max-width: 450px) {
+      flex-basis: 47%;
+    }
+
+    @media $tablet {
+      flex-basis: 33.3%;
+      margin-right: -($spacing-xs);
+      padding: $spacing-xs;
+    }
+
+    @media $desktop {
+      margin-right: -($spacing-xxl);
+      padding: $spacing-xxl;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../style/constants";
+
+.dc-compare-panel-product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: $spacing-xxxs;
+  max-width: 66px;
+  border: 1px solid $dc-color-gs-5;
+  border-radius: $border-radius;
+  background-color: $dc-color-gs-7;
+  text-decoration: none;
+  transition: border-color $transition-time-s;
+
+  &:hover, &:focus {
+    border-color: $currys-color;
+  }
+  .dc-lazy-loaded-image {
+
+    .dc-lazy-loaded-image__img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      width: auto;
+      height: 36px;
+    }
+
+    .dc-loader {
+      height: 36px;
+      background-color: white;
+
+      span {
+        margin: 2px 0;
+      }
+    }
+  }
+}
+
+
+.ie9 .dc-compare-panel-product {
+  display: block;
+}

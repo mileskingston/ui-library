@@ -1,0 +1,100 @@
+@import "../../style/constants";
+
+.dc-button {
+  display: inline-block;
+  overflow: visible;
+  padding: 13px $spacing-m;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  outline: 0;
+  border: 2px solid;
+  border-radius: 4px;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  font-size: $font-size-s;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.1s, border-color 0.1s;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.dc-button-wrapper {
+  position: relative;
+  display: inline;
+
+  .dc-button.dc-button-disabled {
+    border-color: $dc-color-gs-4;
+    color: $dc-color-gs-3;
+    cursor: not-allowed;
+    transition: none;
+
+    &.dc-background-primary,
+    &:hover.dc-background-primary {
+      border-color: $dc-color-gs-4;
+      background-color: $dc-color-gs-4;
+      color: $dc-color-gs-7;
+
+      .dc-icon {
+        stroke: $dc-color-gs-7;
+      }
+    }
+
+    &:hover {
+      background-color: inherit;
+    }
+      
+    .dc-icon-spinner {
+      stroke: $dc-color-gs-4;
+    }
+  }
+  
+  .dc-button-icon .dc-icon {
+    margin: -5px 10px -5px 0;
+    width: 20px;
+    height: @width;
+  }
+    
+  .dc-button-arrow .dc-icon {
+    position: absolute;
+    right: 5px;
+    width: 24px;
+    stroke: none;
+  }
+
+  .dc-button-style-none {
+    border: 0;
+    background-color: transparent;
+  }
+}
+
+.dc-button-small {
+  padding: $spacing-xxs 0;
+  border-width: 1px;
+}
+
+.dc-button-full-width {
+  width: 100%;
+}
+
+.dc-button-spinner {
+  .dc-icon {
+    margin: -24px 0 -24px 4px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.dc-button-link {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: $currys-color;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}

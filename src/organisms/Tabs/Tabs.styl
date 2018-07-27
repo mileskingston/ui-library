@@ -1,0 +1,84 @@
+@import "../../style/constants";
+
+.dc-tabs {
+  margin: 0 -2px 10px;
+}
+
+.dc-tab-list {
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-spacing: 2px;
+  list-style: none;
+}
+
+for number in (1..10) {
+  .dc-tab-list-{number} .dc-tab {
+    width: (100/number)%;
+  }
+}
+
+.dc-tab {
+  position: relative;
+  display: table-cell;
+  margin-right: 2px;
+  padding: $spacing-xs $spacing-xxs;
+  border-right: 1px solid $color-primary-d-9;
+  border-bottom: 1px solid $dc-color-gs-5;
+  border-left: 1px solid $color-primary-d-9;
+  background-color: $color-primary-d-9;
+  text-align: center;
+  white-space: nowrap;
+  cursor: default;
+  transition: background-color $transition-time-s ease, border-color $transition-time-s ease;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    border-color: $dc-color-gs-5;
+    background-color: $dc-color-gs-5;
+    cursor: pointer;
+
+    .dc-tab-text {
+      cursor: pointer;
+    }
+  }
+
+  &.dc-tab-active {
+    border-color: $dc-color-gs-5;
+    border-bottom-color: $dc-color-gs-7;
+    background-color: $dc-color-gs-7;
+
+    .dc-clr-primary {
+      color: $dc-color-gs-2;
+    }
+  }
+}
+
+.dc-tab-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  height: $spacing-xxxs;
+
+  .dc-tab-active & {
+    display: block;
+  }
+}
+
+.dc-tab-text {
+  display: block;
+  font-size: $font-size-xs;
+  font-family: inherit;
+}
+
+.dc-tab-panel {
+  margin: -3px 2px 0;
+  padding: $spacing-l $spacing-xxl $spacing-l $spacing-xxl;
+  border: 1px solid $dc-color-gs-5;
+}

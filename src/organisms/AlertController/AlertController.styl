@@ -1,0 +1,83 @@
+@import "../../style/constants";
+
+.dc-alert-controller--floating {
+  position: relative;
+  
+  @media $mobile {
+    position: static;
+  }
+  
+  .dc-alert-controller__alert {
+    position: absolute;
+    z-index: 3;
+    padding-top: 15px;
+    margin: 0 -5px;
+    
+    @media $mobile {
+      left: 0;
+      right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+  .dc-alert {
+    width: 600px;
+    
+    @media $tablet {
+      width: 400px;
+    }
+  
+    @media $mobile {
+      width: auto;
+    }
+  }
+  
+  &.dc-alert-controller--align-left {
+    text-align: left;
+    
+    .dc-alert-controller__alert {
+      left: 0;
+    }
+  }
+  
+  &.dc-alert-controller--align-center {
+    text-align: center;
+  
+    .dc-alert {
+      left: 50%;
+      margin-left: -300px;
+  
+      @media $tablet {
+        margin-left: -200px;
+      }
+  
+      @media $mobile {
+        margin-left: auto;
+      }
+    }
+  }
+  
+  &.dc-alert-controller--align-right {
+    text-align: right;
+    
+    .dc-alert-controller__alert {
+      right: 0;
+    }
+  }
+}
+
+.dc-alert-controller__trigger {
+  position: relative;
+  z-index: 4;
+  display: inline-block;
+  text-decoration: none;
+  
+  .dc-alert__arrow--top {
+    top: auto;
+    bottom: -21px;
+    left: 50%;
+    right: auto;
+    margin-left: -6px;
+  }
+}

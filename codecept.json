@@ -1,0 +1,17 @@
+{
+  "tests": "./src/**/*.codecept.js",
+  "timeout": 10000,
+  "output": "./tests/output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://localhost:3001",
+      "browser": "chrome"
+    }
+  },
+  "include": {
+    "I": "./tests/steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "ui-library"
+}

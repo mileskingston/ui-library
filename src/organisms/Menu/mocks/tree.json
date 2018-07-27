@@ -1,0 +1,2791 @@
+{
+  "payload": [
+    {
+      "label": "Kitchen Appliances",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances-35-u.html",
+      "nav": [
+        [
+          {
+            "label": "Laundry",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/laundry-332-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Washing machines",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/laundry/washing-machines/332_3119_30206_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Washer dryers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/laundry/washer-dryers/332_3120_30207_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Tumble dryers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/laundry/tumble-dryers/332_3121_30208_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Integrated washing machines ",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-washing-machines/laundry/washing-machines/332_3119_30206_xx_ba00010669-bv00308557/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Laundry accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/laundry/laundry-accessories/332_3535_31262_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Laundry buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/laundry-buyers-guide-362-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Dishwashers",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/dishwashing-350-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Dishwashers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/dishwashing/dishwashers/350_4035_31762_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Integrated dishwashers ",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-dishwashers/dishwashing/dishwashers/350_4035_31762_xx_ba00010666-bv00308532/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Dishwasher buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/dishwasher-buying-guide-1750-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Refrigeration",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/refrigeration-333-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Fridge freezers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/refrigeration/fridge-freezers/333_3125_30212_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "American style fridge freezers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/american-style-fridge-freezers/refrigeration/fridge-freezers/333_3125_30212_xx_ba00010668-bv00308545/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Fridges",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/refrigeration/fridges/333_3127_30214_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Upright freezers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/refrigeration/freezers/333_3128_30215_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Chest freezers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/chest-freezers/refrigeration/freezers/333_3128_30215_xx_ba00010668-bv00308555/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Wine cooling and mini refrigeration",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/freestanding-wine-coolers/refrigeration/fridges/333_3127_30214_xx_ba00010668-bv00308551/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Refrigeration accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/refrigeration/refrigeration-accessories/333_3536_31281_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Refrigeration buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/refrigeration-buying-guide-1764-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Cooking",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking-335-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Range cookers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/range-cookers/cooking/cookers/335_3142_32008_xx_ba00010667-bv00308537/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Cookers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/cookers/335_3142_32008_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Hoods",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/hoods/335_4216_31913_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Splashbacks",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/splashbacks/335_4280_31959_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Microwaves",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/microwaves/335_3152_32014_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Cooking buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cooking-appliance-buying-guide-1749-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Range cooker buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cooker-buying-guide-range-468-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Built-in appliances",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-in-1200-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "Built-in single ovens",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-in-single-ovens/cooking/ovens/335_4215_31936_xx_ba00010687-bv00308538/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Built-in double ovens",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-in-double-ovens/cooking/ovens/335_4215_31936_xx_ba00010687-bv00308539/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Built-under ovens",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-under-double-ovens/cooking/ovens/335_4215_31936_xx_ba00010687-bv00308540/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Electric hobs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/electric-hobs/cooking/hobs/335_4235_31938_xx_ba00010687-bv00308541/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gas hobs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gas-hobs/cooking/hobs/335_4235_31938_xx_ba00010687-bv00308542/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Hoods",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/hoods/335_4216_31913_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Splashbacks",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/splashbacks/335_4280_31959_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Built-in microwaves",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-in-microwaves/cooking/microwaves/335_3152_32014_xx_ba00011226-bv00309184/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated washing machines",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-washing-machines/laundry/washing-machines/332_3119_30206_xx_ba00010669-bv00308557/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated tumble dryers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-tumble-dryers/laundry/tumble-dryers/332_3121_30208_xx_ba00010669-bv00308561/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated washer dryers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-washer-dryers/laundry/washer-dryers/332_3120_30207_xx_ba00010669-bv00308559/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated fridges",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-fridges/refrigeration/fridges/333_3127_30214_xx_ba00010668-bv00308548/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated freezers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-freezers/refrigeration/freezers/333_3128_30215_xx_ba00010668-bv00308554/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated fridge freezers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-fridge-freezers/refrigeration/fridge-freezers/333_3125_30212_xx_ba00010668-bv00308544/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Built-in wine coolers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-in-wine-coolers/refrigeration/fridges/333_3127_30214_xx_ba00010668-bv00308550/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Integrated dishwashers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/integrated-dishwashers/dishwashing/dishwashers/350_4035_31762_xx_ba00010666-bv00308532/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Cookware and bakeware",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cookware-400-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Cookware",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cookware/cookware/400_3404_32026_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Bakeware",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cookware/baking/400_3405_32027_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Utensils and gadgets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/utensils-and-gadgets/cookware/food-preparation-and-kitchen-accessories/400_4410_32112_xx_ba00011155-bv00309140/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Food preparation",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cookware/food-preparation-and-kitchen-accessories/400_4410_32112_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Food and drink storage",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cookware/food-and-drink-storage/400_4411_32113_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Kitchen accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cookware/food-preparation-and-kitchen-accessories/400_4410_32112_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Brand shop",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "AEG",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/aeg-laundry-601-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Beko",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/beko-1069-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Bosch",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bosch-cooking-360-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Grundig",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/grundig-2156-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Hotpoint",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hotpoint-712-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Indesit",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/indesit-uk-2180-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Neff",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/neff-current-promotions-348-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Rangemaster",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/rangemaster-759-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-mda-887-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Siemens",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/siemens-kitchen-appliances-389-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Zanussi",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/zanussi-1071-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Services",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Expert installation",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-installation-413-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Recycle old appliances",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/recycle-1042-theme.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plan-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Buying for business?",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-kitchen-appliances",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": [
+        {
+          "src": "http://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/wk23-hoh-hotpoint-cat-seg_57f4a9125946c.jpg",
+          "alt": "LKA",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-large_appliances_deals-/xx-criteria.html?intcmp=mm-lka-sss-07042016"
+        },
+        {
+          "src": "http://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/wk20-catseg-free-next-day-delivery%20(003)_57dc1791af83c.jpg",
+          "alt": "FND",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#free"
+        }
+      ]
+    },
+    {
+      "label": "Small Appliances",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances-36-u.html",
+      "nav": [
+        [
+          {
+            "label": "Floorcare",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/floorcare-337-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Upright vacuum cleaners",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/upright-vacuum-cleaners/floorcare/vacuum-cleaners/337_3169_30257_xx_ba00011174-bv00309152/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Cylinder vacuum cleaners",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cylinder-vacuum-cleaners/floorcare/vacuum-cleaners/337_3169_30257_xx_ba00011174-bv00309153/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Cordless vacuum cleaners",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cordless-vacuum-cleaners/floorcare/vacuum-cleaners/337_3169_30257_xx_ba00011174-bv00309154/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Steam cleaners",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/floorcare/steam-cleaners/337_3836_31582_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Carpet washers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/floorcare/wet-and-dry-cleaners/337_3171_30259_xx_ba00010037-bv00307827/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Pressure washers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/floorcare/wet-and-dry-cleaners/337_3171_30259_xx_ba00010037-bv00307829%7Cbv00307830/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Window vacuum cleaners",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/floorcare/wet-and-dry-cleaners/337_3171_30259_xx_ba00010037-bv00307829%7Cbv00307830/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Vacuum accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/floorcare/vacuum-accessories/337_3172_30260_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Floorcare buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/floorcare-buying-guide-345-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Ironing",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/ironing-338-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Irons",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/ironing/irons/338_3173_30261_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Steam generator irons",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/steam-generator-irons/ironing/irons/338_3173_30261_xx_ba00011158-bv00309160/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Ironing accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/ironing/ironing-accessories/338_3175_30263_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          },
+          {
+            "label": "Health & Beauty",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/health-beauty-341-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Electric toothbrushes",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/health-beauty/toothbrushes/341_3188_31869_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Male grooming",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/health-beauty/men-s-trimmers-and-clippers/341_3185_30273_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Hair dryers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/health-beauty/hair-dryers/341_3189_30277_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Massage and well-being",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/health-beauty/massage-and-well-being/massage/341_3409_32032_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Small kitchen appliances",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances-336-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Toasters",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/toasters/336_3157_30245_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Kettles",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/kettles/336_3156_30244_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Juicers and blenders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/food-and-drink-preparation/juicers-and-blenders/336_3164_31120_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Food mixers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/food-and-drink-preparation/food-mixers/336_3164_32024_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Food processors",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/food-and-drink-preparation/food-processors/336_3164_31102_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Small cooking appliances",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/small-cooking-appliances-3155-m.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Coffee machines",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/coffee-machines-and-accessories/coffee-machines/336_3159_31562_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Coffee accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/small-kitchen-appliances/coffee-machines-and-accessories/coffee-accessories/336_3159_32023_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Coffee buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/coffee-buying-guide-776-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Small kitchen appliance buyers guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances-buying-guide-1728-commercial.html#nos7",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Microwaves",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/microwaves/335_3152_32014_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Freestanding microwaves",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/freestanding-microwaves/cooking/microwaves/335_3152_32014_xx_ba00011226-bv00309183/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Built-in microwaves",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/built-in-microwaves/cooking/microwaves/335_3152_32014_xx_ba00011226-bv00309184/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Microwave accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/household-appliances/cooking/microwave-accessories/335_4409_32088_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Microwave buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/microwave-buying-guide-1255-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Sewing machines",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/sewing-machines/sewing-machines/470_4135_31889_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Fans and heaters",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-appliances/heating-and-cooling-339-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Heaters",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/heaters/heating-and-cooling/heaters/339_3176_30264_xx_ba00011175-bv00309163/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Fans",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/fans/heating-and-cooling/heating-and-cooling/339_3176_30264_xx_ba00011175-bv00309164/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Brand shops",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Bissell",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bissell-1263-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Bosch",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bosch-athlet-367-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Dolce Gusto",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/nescafe-dolce-gusto-559-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Dyson",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/dyson-1291-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Hoover",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hoover-1216-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Karcher",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/karcher-706-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Kenwood",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/kenwood-why-1039-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "KitchenAid",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/kitchenaid-1335-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Nespresso",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/nespresso-847-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Russell Hobbs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/russell-hobbs-1976-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-mda-887-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Shark",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/shark-654-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Vax",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/vax-1156-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Services",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plans-kitchen-appliances-279-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plan-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Buying for business?",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-small-appliances",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/Nespresso%201_57e257b4a9fa5.jpg",
+          "alt": "Dyson V8",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/10145173%257c10145182/xx-criteria.html?intcmp=DysonV8-seg-13042016"
+        }
+      ]
+    },
+    {
+      "label": "TV & Entertainment",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment-31-u.html",
+      "nav": [
+        [
+          {
+            "label": "Televisions",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions-301-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "All TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "All 4K Ultra HD TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/4k-ultra-hd-tvs/televisions/televisions/301_3002_30002_xx_ba00011146-bv00309067/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "All curved TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00009695-bv00307479/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "All OLED TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00004484-bv00298768/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "56 inch TVs and over",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00004464-bv00308593%7Cbv00308620/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "46 inch to 55 inch TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00004464-bv00298763/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "40 inch to 45 inch TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00004464-bv00298762/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "32 inch to 39 inch TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00004464-bv00298761/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Up to 32 inch TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/televisions/televisions/301_3002_30002_xx_ba00004464-bv00308621%7Cbv00298759/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "TV and entertainment buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-buyers-guide-1959-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "TV accessories",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories-302-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "TV wall brackets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/tv-wall-brackets/302_3011_30011_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "TV stands",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/tv-stands/302_3012_30012_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Remote controls",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/remote-controls/302_3008_30008_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "TV aerials",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/tv-aerials/302_3009_30009_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "AV senders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/av-senders/302_3010_30010_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Smart and 3D TV accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/smart-3d-tv-accessories/302_3435_31220_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Cleaning products",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/cleaning-products/302_3006_30006_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Cables and accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/tv-accessories/cables-and-accessories/302_3014_30014_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Cable buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sandstrom-cables-hdmi-1979-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Digital and smart TV",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/digital-and-smart-tv-304-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Freeview",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/freeview-set-top-boxes/digital-and-smart-tv/set-top-boxes/304_3021_30021_xx_ba00010848-bv00308762/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Freesat",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/freesat-set-top-boxes/digital-and-smart-tv/set-top-boxes/304_3021_30021_xx_ba00010848-bv00308763/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Smart TV",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/digital-and-smart-tv/smart-tv/304_3635_31362_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "DVD, Blu-ray and home cinema",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/dvd-blu-ray-and-home-cinema-303-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Home cinema systems",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-cinema-systems/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-sound-bars/303_3018_30018_xx_ba00010677-bv00308612/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Soundbars",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/dvd-blu-ray-and-home-cinema/home-cinema-systems-sound-bars/303_3018_30018_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Soundstages",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/soundstages/dvd-blu-ray-and-home-cinema/home-cinema-systems-and-sound-bars/303_3018_30018_xx_ba00010677-bv00308614/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Blu-ray players",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/blu-ray-players/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/303_3016_30016_xx_ba00010708-bv00308610/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "DVD players",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/dvd-players/dvd-blu-ray-and-home-cinema/blu-ray-and-dvd-players/303_3016_30016_xx_ba00010708-bv00308611/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Portable DVD players",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/dvd-blu-ray-and-home-cinema/portable-dvd-players/303_3019_30019_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Gaming ",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/gaming-430-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Playstation consoles",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sony-tv-and-home-entertainment/gaming/gaming-consoles/430_3959_31710_49_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Xbox consoles",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/microsoft-tv-and-home-entertainment/gaming/gaming-consoles/430_3959_31710_195_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Nintendo consoles",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/nintendo-tv-and-home-entertainment/gaming/gaming-consoles/430_3959_31710_1108_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Playstation games",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/playstation-4-tv-and-home-entertainment/gaming/console-games/430_3961_31714_6099_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Xbox games",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/xbox-one-tv-and-home-entertainment/gaming/console-games/430_3961_31714_6100_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Nintendo games",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/gaming/console-games/430_3961_31714_1108_3373_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/gaming/gaming-accessories/430_3960_31668_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "PC games",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tv-and-home-entertainment/gaming/pc-games/430_4406_32085_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Lego dimensions",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/lego-dimensions-tv-and-home-entertainment/gaming/console-games/430_3961_31714_6116_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Projectors",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/projectors-570-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Projectors",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/projectors/projectors/570_4432_32094_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Projector screens and accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/projectors/projector-screens-and-accessories/570_4433_32077_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Projector buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/projector-buying-guide-1010-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Brand shops",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Bose",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bose-2158-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Freesat Freetime",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/freesat-1920-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "LG TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/lg-tv-range-1006-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "JVC TVs & Sound bars",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/jvc-tv-1118-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Panasonic TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/panasonic-tv-range-583-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-tv-range-1733-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sandstr&#248;m",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sandstrom-tv-home-cinema-311-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sonos",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sonos-player-898-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sony TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sony-tv-range-896-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Learn more about",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "4K ultra HD TV",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/4k-ultra-hd-1707-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Now TV",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/now-tv-951-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-1217-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung SUHD TVs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-suhd-1077-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "TV stand visualiser",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sayduck-app-622-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Xbox",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/xbox-999-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Compare digital TV packages",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/compare-tv-phone-and-broadband-1214-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Services",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-tv-609-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "Expert installation",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-installation-413-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Recycle old appliances",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/recycle-1042-theme.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plan-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Buying for business?",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-tv-entertainment",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/soundtouch_57ef98e5b1dd6.jpg",
+          "alt": "New TV Range",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_30002_xx_xx/-entertainment_deals-/xx-criteria.html?intcmp=New-TV-Range-19042016"
+        }
+      ]
+    },
+    {
+      "label": "Cameras",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders-38-u.html",
+      "nav": [
+        [
+          {
+            "label": "All cameras",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/digital-cameras-344-c.html",
+            "targetType": "ucms",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Interchangeable lens cameras",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/digital-cameras/dslr-and-compact-system-cameras/344_3757_31522_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "DSLR cameras",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/dslr-cameras/digital-cameras/dslr-and-compact-system-cameras/344_3757_31522_xx_ba00010675-bv00308606/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Compact system cameras",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/compact-system-cameras/dslr-and-compact-system-cameras/dslr-and-compact-system-cameras/344_3757_31522_xx_ba00010675-bv00308607/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Lenses",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/lenses/346_3209_30311_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Bags and cases",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/camera-bags-and-cases/346_3205_30307_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Memory cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/memory-cards-and-readers/346_3295_31023_xx_ba00011136-bv00309090%7Cbv00309091%7Cbv00309092/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Digital compact cameras",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/digital-cameras/compact-and-bridge-cameras/344_3199_30301_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Compact digital cameras",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/compact-cameras/digital-cameras/compact-and-bridge-cameras/344_3199_30301_xx_ba00010674-bv00308601/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Bridge cameras",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bridge-cameras/digital-cameras/compact-and-bridge-cameras/344_3199_30301_xx_ba00010674-bv00308605/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Tough cameras",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/digital-cameras/compact-and-bridge-cameras/344_3199_30301_xx_ba00004366-bv00297992%7Cbv00297993/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Bags and cases",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/camera-bags-and-cases/346_3205_30307_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Memory cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/memory-cards-and-readers/346_3295_31023_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          },
+          {
+            "label": "Camcorders",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/camcorders-347-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Traditional camcorders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/traditional-camcorders/camcorders/camcorders/digital-camcorders/347_3213_30315_xx_ba00010676-bv00308608/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Dash cams",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/camcorders/dash-cams/347_4435_32096_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Action camcorders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/action-camcorders/camcorders/camcorders/digital-camcorders/347_3213_30315_xx_ba00010676-bv00308609/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Drones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/drones/smart-tech/smart-toys-and-gadgets/smart-toys/551_4376_31989_xx_ba00010927-bv00308854/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Brand shops",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Canon",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/canon-2175-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Fujifilm",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/fujifilm-home-939-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "GoPro",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gopro-827-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Nikon",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/nikon-627-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Panasonic",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/panasonic-4k-photography-1144-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sony",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sony-imaging-alpha-1224-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "CCTV",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cctv/smart-tech/smart-home/smart-home-cameras-and-cctv/551_4281_32081_xx_ba00010914-bv00308842/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "CCTV",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cctv/smart-tech/smart-home/smart-home-cameras-and-cctv/551_4281_32081_xx_ba00010914-bv00308842/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Photography accessories",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories-346-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Flashguns and lighting",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/flashguns/346_3208_30310_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Tripods and supports",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/tripods/346_3210_30312_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Batteries and chargers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/batteries/346_3211_31524_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Camcorder accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/camcorder-accessories/346_4478_32156_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Selfie sticks",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/selfie-sticks/photography-accessories/camera-accessories/346_3270_30358_xx_ba00009064-bv00308220/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Other accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/other-camera-accessories/photography-accessories/camera-accessories/346_3270_30358_xx_BA00009064-BV00306701/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Optics",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Binoculars",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/binoculars/346_3797_31507_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Telescopes",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/photography-accessories/telescopes/346_4407_32086_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Advice/ Buying guides",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "4K cameras and camcorders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/4k-cameras-and-camcorders-1219-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Camera buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/camera-guide-286-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Camcorder buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/camcorder-guide-1286-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "CCTV buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cctv-buying-guide-876-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Dash cams",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/dash-cams-826-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Services",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plans-cameras-camcorders-318-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "24/7 help and advice",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow247-1541-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Setup and showhow",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-set-up-and-showhow-287-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plan-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Buying for business?",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-cameras",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/wk20-catseg-canon-dslr_57dbc0e3de2f3.jpg",
+          "alt": "BNPL Cameras",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html#12months"
+        }
+      ]
+    },
+    {
+      "label": "Audio",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones-32-u.html",
+      "nav": [
+        [
+          {
+            "label": "All audio",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones-32-u.html",
+            "targetType": "ucms",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Hi-Fi and speaker docks",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/audio/hifi-systems-and-speakers/550_4278_31971_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Speaker docks",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/speakers-and-speaker-docks/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308796/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Hi-Fi systems",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hifi-systems/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308795/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Portable speakers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/portable-speakers/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308797/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Wireless Hi-Fi systems",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/multi-room-speakers/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308798/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Turntables",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/turntables/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308800/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Hi-Fi and speakers accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/multi-room-hubs-and-adaptors/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308799/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Home audio buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-buying-guide-1748-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Headphones",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/headphones-291-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "View all headphones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/headphones/headphones/291_3919_31664_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "In-ear headphones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/in-ear-headphones/headphones/headphones/291_3919_31664_xx_ba00010486-bv00308330/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "On-ear headphones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/headphones/headphones/291_3919_31664_xx_ba00010486-bv00308328%7Cbv00308329/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Wireless headphones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bluetooth-headphones/headphones/headphones/291_3919_31664_xx_ba00010486-bv00308562/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sports headphones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sports-headphones/headphones/headphones/291_3919_31664_xx_ba00010486-bv00309185/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Radios",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/audio/radios/550_4276_31970_xx_xx/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Portable audio",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/audio/ipods-and-mp3-players/550_4275_31953_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "MP3 and multimedia players",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/audio/ipods-and-mp3-players/550_4275_31953_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Personal CD players",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/audio/personal-cd-players/550_4277_31955_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Portable speakers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/portable-speakers/audio/hifi-systems-and-speakers/550_4278_31971_xx_ba00010759-bv00308797/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "iPods",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-audio-and-headphones/audio/ipods-and-mp3-players/550_4275_31953_267_xx/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "iPod touch",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/ipod-touch/audio/ipods-and-mp3-players/550_4275_31953_xx_ba00011135-bv00309084/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "iPod nano",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-ipod-nano/audio/ipods-and-mp3-players/550_4275_31953_267_ba00011135-bv00309085/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "iPod shuffle",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-ipod-shuffle/audio/ipods-and-mp3-players/550_4275_31953_267_ba00011135-bv00309086/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/audio-and-headphones/audio/mp3-accessories/550_4295_31954_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Dictaphones",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/office-supplies/dictaphones/510_4424_32068_xx_xx/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Sat nav",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/phones-broadband-and-sat-nav/sat-nav-403-c.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "Sat nav",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/phones-broadband-and-sat-nav/sat-nav/sat-nav/403_3418_32056_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sat nav accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/phones-broadband-and-sat-nav/sat-nav/sat-nav-accessories/403_3419_32057_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Dash cams",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/cameras-and-camcorders/camcorders/dash-cams/347_4435_32096_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Brand shops",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Beats by dre",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/beats-678-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Bose",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/bose-2158-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Goji",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/goji-collective-701-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "JVC",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/jvc-home-audio-1122-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "LG audio",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/lg-home-entertainment-1853-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Monster audio",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/monster-audio-1154-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-home-entertainment-643-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sandstr&#248;m",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sandstrom-home-audio-741-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sennheiser",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sennheiser-1132-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sonos",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sonos-the-system-2127-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sony",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sony-headphones-1172-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Ultimate Ears",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/ultimate-ears-1161-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Services",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Music on the go",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-cloud-642-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plan-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Buying for business?",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-audio",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/wk19-cat-seg-beats-solo-pre-order_57e42182c7ef5.jpg",
+          "alt": "BNPL",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html#12months"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/soundtouch_57ef98ba887ab.jpg",
+          "alt": "sonos apple",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sonos-the-system-2127-commercial.html"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/sondlink_57ef8f274136d.jpg",
+          "alt": "sonos apple",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sonos-the-system-2127-commercial.html"
+        }
+      ]
+    },
+    {
+      "label": "Computing",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-33-u.html",
+      "nav": [
+        [
+          {
+            "label": "Laptops",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/laptops-315-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "All laptops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/laptops/laptops/315_3226_30328_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Windows 10 laptops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/laptops/laptops/315_3226_30328_xx_ba00002917-bv00309361/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Windows laptops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/laptops/laptops/315_3226_30328_xx_ba00010671-bv00308565|bv00308566|bv00308567/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "2 in 1 laptops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/2-in-1-laptops/laptops/laptops/315_3226_30328_xx_ba00010671-bv00308566/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming laptops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-laptops/laptops/laptops/315_3226_30328_xx_ba00010671-bv00308567/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "MacBook",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-computing/laptops/laptops/315_3226_30328_267_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Chromebooks",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/chromebooks/laptops/laptops/315_3226_30328_xx_ba00010671-bv00308571/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Microsoft Surface",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/microsoft-computing/laptops/laptops/315_3226_30328_195_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Laptop buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/laptop-buying-guide-550-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "iPad, Tablets & eReaders",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/tablets-and-ereaders-149-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "All tablets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/tablets-and-ereaders/tablets/149_3402_32003_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "iPad",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-computing/tablets-and-ereaders/tablets/149_3402_32003_267_ba00010673-bv00309450|bv00308594/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "iPad Pro",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-ipad-pro/tablets-and-ereaders/tablets/149_3402_32003_267_ba00010673-bv00309450/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Android tablets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/android-tablets/tablets-and-ereaders/tablets/149_3402_32003_xx_ba00010673-bv00308595/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Windows tablets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/windows-tablets/tablets-and-ereaders/tablets/149_3402_32003_xx_ba00010673-bv00308596/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Fire tablets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/fire-tablets/tablets-and-ereaders/tablets/149_3402_32003_xx_ba00010673-bv00309451/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Microsoft Surface",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/microsoft-computing/laptops/laptops/315_3226_30328_195_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "eReaders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/tablets-and-ereaders/ereaders/149_3415_31200_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Mobile broadband",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/phones-broadband-and-sat-nav/broadband/mobile-broadband/571_4434_32080_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Tablet buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tablet-buying-guide-565-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Mobile broadband buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/mobile-internet-guide-881-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Projectors",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/projectors-570-c.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "Projectors",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/projectors/projectors/570_4432_32094_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Projector screens and accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/projectors/projector-screens-and-accessories/570_4433_32077_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Projector buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/projector-buying-guide-1010-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Desktop PCs",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/desktop-pcs-317-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Windows 10 PCs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/desktop-pcs/desktop-pcs/317_3055_30057_xx_ba00002517-bv00309370/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Tower desktops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/desktop-pcs/desktop-pcs/317_3055_30057_xx_ba00010707-bv00308577|bv00308580|bv00308581/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "All-in-one PCs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/all-in-on-pcs/computing/desktop-pcs/desktop-pcs/317_3055_30057_xx_ba00010707-bv00308578/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming PCs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-pcs/computing/desktop-pcs/desktop-pcs/317_3055_30057_xx_ba00010707-bv00308579/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Barebones PCs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/barebones-pcs/computing/desktop-pcs/desktop-pcs/317_3055_30057_xx_ba00010707-bv00308935/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Apple desktops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-computing/desktop-pcs/desktop-pcs/317_3055_30057_267_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Desktop buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/desktop-buying-guide-home-975-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "PC monitors",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing/pc-monitors/pc-monitors/354_3057_30059_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Printers, scanners and ink",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink-319-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "All printers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink/printers/319_3065_30087_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "3D printers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/3d-printers/printers-scanners-and-ink/printers/319_3065_30087_xx_ba00010766-bv00308683/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Inkjet printers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/home-printers/printers-scanners-and-ink/printers/319_3065_30087_xx_ba00010766-bv00308684/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Laser printers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/laser-printers/printers-scanners-and-ink/printers/319_3065_30087_xx_ba00010766-bv00308682/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Scanners",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink/scanners/319_4399_32038_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Printer cartridges",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink/ink-and-cartridges/printer-cartridges/319_3067_30096_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Printer buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/printers-buyers-guide-542-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Brand shops",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Acer",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/acer-1192-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Apple",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/apple-products-1462-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Google",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/google-1060-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "HP",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hp-1198-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Lenovo",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/lenovo-yoga-449-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-1217-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sandstr&#248;m",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sandstrom-pc-peripherals-1469-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Toshiba",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/toshiba-laptop-range-1188-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Windows",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/windows10-1004-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Learn more about",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Desktop buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/desktop-buying-guide-home-975-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Epson projectors",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/epson-projectors-1059-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Google Chromebook",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/chromebook-1856-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Google Nexus 9",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/nexus9-868-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Intel",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/intel-look-inside-2107-commercial.html?intcmp=megamenu-LookInsideNoLimitsOutsideIntel-CP-Computing-210116",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "iPad Pro",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/ipad-pro-1265-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "HP laptops",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hp-laptops-792-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "HP Sprout",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/sprout-1040-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "HTC Vive VR",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/vive-vr-1251-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Microsoft Surface",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/surface-pro4-1195-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Philips Screeneo",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/philips-screeneo-694-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Refurbished computing",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/refurbished-computing-928-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Samsung tablets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/samsung-tablet-1159-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Windows 10",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/windows10-1004-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Compare broadband deals",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/compare-tv-phone-and-broadband-1214-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Services",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-computing-607-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "24/7 help and advice",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow247-1541-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Setup and showhow",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-set-up-and-showhow-287-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plan-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Buying for business",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-computing",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": []
+    },
+    {
+      "label": "PC Accessories",
+      "targetType": "ucms",
+      "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories-40-u.html",
+      "nav": [
+        [
+          {
+            "label": "Printers, scanners and ink",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink-319-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Printers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink/printers/319_3065_30087_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Ink and cartridges",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/printers-scanners-and-ink/ink-and-cartridges-3067-m.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Paper",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/office-supplies/paper/510_4419_32059_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Photo paper",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/photo-paper/office-supplies/paper/510_4419_32059_xx_ba00011112-bv00308991/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Shredders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/office-supplies/shredders/510_4422_32066_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Laminators",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/office-supplies/laminators/510_4423_32067_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Printers buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/printers-buyers-guide-542-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Computer accessories",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories-318-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Tablet accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/tablet-accessories-4416-m.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Mice",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/mice-and-keyboards/mice/318_3058_30060_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Keyboard",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/mice-and-keyboards/keyboards/318_3058_30061_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Webcams",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/webcams/318_3696_31384_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Headsets and microphones",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/headsets-and-microphones/318_4237_31941_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "PC speakers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/pc-speakers/318_3062_30081_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Graphics tablets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/graphics-tablets/318_3420_32060_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Power and cables",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/power-and-cables-3060-m.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Microsoft Surface accessories",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/microsoft-computing-accessories/computer-accessories/tablet-accessories/tablet-cases-and-keyboards/318_4416_32013_195_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Networking",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/networking-321-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Routers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/networking/network-routers-and-switches/routers/321_4426_32073_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Network switches",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/networking/network-routers-and-switches/network-switches/321_4426_32071_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Wireless adapters",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/networking/network-routers-and-switches/wireless-adapters/321_4426_32072_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "WiFi range extenders",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/networking/wifi-range-extenders/321_3423_32064_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Powerline",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/networking/powerline/321_3076_30123_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Mobile broadband",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/phones-broadband-and-sat-nav/broadband/mobile-broadband/571_4434_32080_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Network buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/network-buying-guide-814-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "PC gaming Accessories",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-gaming-1150-commercial.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "Gaming mice",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-mice/computer-accessories/mice-and-keyboards/mice/318_3058_30060_xx_ba00010386-bv00308223/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming keyboards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-keyboards/computer-accessories/mice-and-keyboards/keyboards/318_3058_30061_xx_ba00011087-bv00308967/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Game controllers and joysticks",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/joysticks/computer-accessories/game-controllers-and-joysticks/318_4395_32010_xx_ba00011107-bv00308972/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming headsets",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-headsets/computer-accessories/headsets-and-microphones/318_4237_31941_xx_ba00011108-bv00308974/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming surfaces",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-surfaces/computer-accessories/mice-and-keyboards/mouse-mats-wrist-rests/318_3058_30063_xx_ba00011089-bv00308969/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Graphics cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/graphics-cards/324_3091_30343_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Sound cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/sound-cards/324_3092_30176_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Data storage",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/data-storage-355-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "External hard drives",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/data-storage/data-storage/355_3235_30125_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Internal data storage",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/internal-data-storage/324_3086_30163_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "CD, DVD and Blu-ray drives",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/cd-dvd-and-blu-ray-drives/cd-dvd-blu-ray-drives/324_3436_32047_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "CDs, DVDs and Blu-Ray discs",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/data-storage/cd-dvd-and-blu-ray-discs/355_4401_32090_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "USB flash drives",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/data-storage/usb-flash-drives/355_3414_32045_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Cloud storage",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-computing-accessories/data-storage/data-storage/355_3235_30125_94668_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Components & upgrades",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades-324-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Processors",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/processor/components-upgrades/processors/324_3089_30342_xx_ba00009345-bv00307227/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Motherboards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/motherboard/components-upgrades/processors/324_3089_30342_xx_ba00009345-bv00307226/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Computer memory",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/computer-memory/324_3085_30160_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Graphics cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/graphics-cards/324_3091_30343_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Sound cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/sound-cards/324_3092_30176_xx_xx/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Interface cards",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/interface-cards/324_3093_30177_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Internal data storage",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/internal-data-storage/324_3086_30163_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "CD, DVD & Blu-ray drives",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/cd-dvd-and-blu-ray-drives/cd-dvd-blu-ray-drives/324_3436_32047_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Tower cases",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/tower-cases/324_4402_32092_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "PC fans and coolers",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/pc-fans-and-coolers/324_3087_30168_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Power supplies",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/power-supplies/324_3088_30169_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Hard drive enclosures",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/hard-drive-enclosures/324_4430_32076_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Raspberry Pi",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/components-upgrades/raspberry-pi/324_4431_32093_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          },
+          {
+            "label": "Software",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software-323-c.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Internet security and antivirus",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/internet-security-and-antivirus/323_3082_30145_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Operating systems",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/operating-systems/323_4428_32075_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Office software",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/office-software/323_4315_31981_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Accounting, business and finance",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/accounting-business-and-finance-software/323_4427_32074_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "E-learning",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/elearning/e-learning/323_3083_31990_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "PC optimisation software",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/pc-optimisation-software/323_4429_32091_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Education, leisure and reference",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/education-leisure-and-reference-software/323_4335_31982_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "Creation and editing software",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/software/creation-and-editing-software/323_4316_31961_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "label": "Laptop bags and cases",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/laptop-bags-and-cases/318_3059_30067_xx_xx/xx-criteria.html",
+            "targetType": "ucms",
+            "nav": [
+              {
+                "label": "Laptop bags and cases",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/computer-accessories/laptop-bags-and-cases/318_3059_30067_xx_xx/xx-criteria.html",
+                "targetType": "ucms"
+              },
+              {
+                "label": "iPad and tablet cases",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tablet-cases/computer-accessories/tablet-accessories/tablet-cases-and-keyboards/318_4416_32013_xx_ba00010758-bv00308691/xx-criteria.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "eReader cases",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/ereader-cases/computer-accessories/ereader-accessories/318_4417_32037_xx_ba00011091-bv00308987/xx-criteria.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Brand shops",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Brother",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/brother-printer-458-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "devolo",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/devolo-471-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Google",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/google-1060-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "HP",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hp-1198-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Kaspersky",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/kaspersky-1163-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "McAfee",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/mcafee-988-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "My Cloud",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/mycloud-1266-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Netgear",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/netgear-home-1093-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Norton",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/norton-1165-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "TP Link",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/tp-link-774-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Learn more about",
+            "link": "",
+            "targetType": "not_clickable",
+            "nav": [
+              {
+                "label": "Amazon Fire TV",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/amazon-fire-tv-905-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Belkin Smart Home",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/belkin-netcam-331-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Epson eco tank",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/epson-eco-tank-823-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Gaming bunker",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/gaming-bunker-489-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Google Chromecast",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/google-chromecast-686-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "HP instant ink",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hp-instant-ink-709-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Microsoft Office 365",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/whats-office365-786-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Printing buying guide",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/printers-buyers-guide-542-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Seagate personal cloud",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/seagate-cloud-1068-commercial.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Knowhow services",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/other-knowhow-services-1941-theme.html",
+            "targetType": "cmlink",
+            "nav": [
+              {
+                "label": "24/7 help and advice",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/computing-accessories/knowhow-services/knowhow-services/knowhow-24-7-help-advice-1-year-service-09727203-pdt.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Cloud storage",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/knowhow-cloud-642-commercial.html",
+                "targetType": "cmlink"
+              },
+              {
+                "label": "Support and protection",
+                "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/care-plans-1905-theme.html",
+                "targetType": "cmlink"
+              }
+            ]
+          },
+          {
+            "label": "Clearance",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/search-keywords/xx_xx_xx_xx_xx/-clearance-/xx-criteria.html",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          },
+          {
+            "label": "Buying for business",
+            "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/pc-world-business-1262-commercial.html?intcmp=business-nav-pcaccessories",
+            "targetType": "cmlink",
+            "nav": [
+            ]
+          }
+        ]
+      ],
+      "features": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/next-day-available[1]_56829ef474a5a.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/delivery-1021-theme.html#next"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/reserve_563cd0578d0e0.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/order-and-collect-1024-theme.html?intcmp=nav~reserve-and-collect~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/unbeatable-prices_563cd050550c5.jpg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/price-promise-1023-theme.html?intcmp=nav~price-promise~service"
+        },
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/payment-options_56a73be775ee3.jpeg",
+          "text": " ",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/payment-options-1026-theme.html"
+        }
+      ],
+      "banners": [
+        {
+          "src": "https://currys.cdn.test05.dixons.com/grafx/gb/uk/header/items/wk16-cat-seg-banner-oculus_57e15c54a8241.jpg",
+          "alt": "HP SPECTRE",
+          "link": "https://common.fo-currys.fo.dev.dixons.com/gbuk/hp-register-1269-commercial.html?intcmp=mm-laptops-hpspectre-ryi-computing-07042016"
+        }
+      ]
+    }
+  ]
+}

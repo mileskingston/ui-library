@@ -1,0 +1,140 @@
+@import "../../style/constants";
+
+.dc-steps {
+  margin-bottom: 5px;
+  
+  @media $mobile {
+    text-align: left;
+  }
+}
+
+.dc-step {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10px 0 5px;
+  min-height: 30px;
+
+  &:first-child {
+    margin-top: 7px;
+  }
+    
+  &:last-child {
+    min-height: 0;
+  }
+
+  &:after {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    height: 100%;
+    border-left: 1px solid #d8d8d8;
+    content: "";
+  }
+
+  &.dc-step-large:after {
+    left: 15px;
+  }
+
+  &:last-child:after {
+    border: 0;
+  }
+}
+  
+.dc-steps-horizontal {
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  
+  .dc-step {
+    flex: 1 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+
+    &:after {
+      top: 11px;
+      left: 50%;
+      width: 100%;
+      height: auto;
+      border-top: 1px solid #d8d8d8;
+      border-left: none;
+    }
+      
+    &:last-child:after {
+      border: 0;
+    }
+  }
+    
+  for i in (1..5) {
+    &.dc-steps-{i} {
+      .dc-step {
+        width: (100 / i)%;
+      }
+    }
+  }
+    
+  .dc-step-content {
+    margin-top: 5px;
+  }
+}
+  
+.dc-step-iframe {
+  align-items: flex-start;
+
+  .dc-step-number {
+    margin-top: 12px;
+  }
+}
+
+.dc-step-number {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  margin: 0 10px 0 0;
+  min-width: @width;
+  width: 21px;
+  height: @width;
+  outline: 5px solid #fff;
+  border-radius: 50%;
+  background-color: $dc-color-gs-3;
+  box-shadow: 0 0 10px #fff;
+  color: $dc-color-gs-7;
+  text-align: center;
+  font-weight: bold;
+  line-height: @width;
+
+  .dc-step-active & {
+    background-color: $dc-color-positive;
+
+    .dc-icon {
+      width: 21px;
+      height: @width;
+      fill: $dc-color-gs-7;
+      margin-top: -2px;
+    }
+  }
+
+  .dc-step-large & {
+    min-width: @width;
+    width: 31px;
+    height: @width;
+    line-height: @width;
+
+    .dc-icon {
+      width: 31px;
+      height: @width;
+    }
+  }
+}
+
+.dc-step-content {
+  flex-grow: 1;
+  max-width: 100%;
+  
+  .ie10 & {
+    display: inline-block;
+    flex: 1 1;
+  }
+}

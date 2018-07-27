@@ -1,0 +1,20 @@
+@import "../../../style/constants";
+
+.dc-header-logo {
+  display: block;
+
+  &--desktop {
+    display: none;
+  }
+
+  @media $desktop {
+    &--desktop {
+      display: block;
+    }
+
+    &--handheld {
+      display: none;
+    }
+  }
+
+}

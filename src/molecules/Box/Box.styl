@@ -1,0 +1,40 @@
+@import "../../style/constants";
+
+.dc-box {
+  position: relative;
+  margin-bottom: $spacing-l;
+  padding: $spacing-s $spacing-l;
+  border: 1px solid $dc-color-gs-5;
+  background-color: $dc-color-gs-7;
+
+  @media $mobile {
+    margin-bottom: $spacing-xs !important;
+  }
+}
+
+.dc-box-text {
+  margin: 0 0 $spacing-xxs;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    color: $dc-color-gs-2;
+  }
+}
+
+.dc-box-carret-right {
+  position: absolute;
+  top: 50%;
+  right: -33px;
+  margin-top: -10px;
+
+  @media $tablet {
+    right: -29px;
+  }
+
+  @media $mobile {
+    display: none;
+  }
+}

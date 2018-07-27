@@ -1,0 +1,25 @@
+version: "3"
+services:
+  ui-library-currys:
+    environment:
+      PORT: 3031
+      THEME: currys
+    image: node:9
+    ports:
+      - "3031:3031"
+    volumes:
+      - ".:/app"
+    working_dir: /app
+    command: npm run start
+
+  ui-library-pcworld:
+    environment:
+      PORT: 3032
+      THEME: pcworld
+    image: node:9
+    ports:
+      - "3032:3032"
+    volumes:
+      - ".:/app"
+    working_dir: /app
+    command: npm run start

@@ -1,0 +1,61 @@
+$basicFontSize = 13px;
+$basicLineHeight = 1.231;
+
+dc-text($fontSize = $basicFontSize, $lineHeight = 15px) {
+  font: $fontSize/$lineHeight Helvetica, Arial, sans-serif;
+}
+
+dc-base-font() {
+  dc-text($basicFontSize, $basicLineHeight);
+  color: $dc-color-gs-1;
+}
+
+dc-bold() {
+  font-weight: bold;
+}
+
+dc-text-heading-1() {
+  dc-text(24px, 30px);
+}
+
+dc-text-heading-2() {
+  dc-text(18px, 24px);
+}
+
+dc-text-heading-3() {
+  dc-text(16px, 20px);
+}
+
+dc-text-heading-4() {
+  dc-text(14px, 18px);
+}
+
+dc-text-button() {
+  dc-text(14px, 18px);
+}
+
+dc-text-body() {
+  dc-text($basicFontSize, $basicLineHeight);
+}
+
+dc-text-link() {
+  dc-text($basicFontSize, 15px);
+  color: $dc-color-link;
+}
+
+dc-text-smaller() {
+  dc-text(11px, 13px);
+}
+
+dc-text-ellipses($numberOfLines = 1, $fontSize = $basicFontSize, $lineHeight = $basicLineHeight) {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 100%;
+  max-height: $fontSize * $lineHeight * $numberOfLines; /* Fallback for non-webkit */
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  -webkit-line-clamp: $numberOfLines
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

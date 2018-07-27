@@ -1,0 +1,112 @@
+<div id="theme-switcher">
+    <label>
+        Change theme:
+        <select id="theme-switcher-select">
+        </select>
+    </label>
+</div>
+<div id="rsg-root"></div>
+<script id="app.locale" type="application/json-ld">
+    {
+        "component.my-account-menu.menu_welcome": "Welcome",
+        "component.my-account-menu.my_account_summary": "Your orders",
+        "component.my-account-menu.wishlists_section_title": "Saved for later",
+        "component.my-account-menu.manage_my_details_title": "Manage your details",
+        "component.my-account-menu.lets_update_you": "Keep up to date",
+        "component.my-account-menu.have_any_questions": "Have any questions?",
+        "component.my-account-menu.sign_out": "Sign out",
+        "component.my-account.psi_hide_password": "Hide",
+        "component.my-account.psi_show_password": "Show",
+        "component.my-account.psi_add_capitals_and_numbers": "Weak \u2013 to strengthen password include letters, capitals, numbers and special characters.",
+        "component.my-account.psi_good": "Good &ndash; to strengthen password  include one of: ! # $ % ^ & * ?",
+        "component.my-account.psi_not_available": "That password\u2019s not available. Please create another.",
+        "component.my-account.psi_strong": "Strong \u2013 to strengthen password further include letters, capitals, numbers and special characters.",
+        "component.my-account.psi_too_short": "Password too short. Please create another at least 6 characters long. You can use letters, capitals, numbers and special characters.",
+        "component.my-account.psi_very_strong": "Super-strong password created.",
+        "component.my-account.email": "Email address",
+        "component.my-account.email_validation_error": "Please enter a valid email address.",
+        "component.my-account.password": "Password",
+        "component.my-account.create_password_label": "Create password",
+        "component.my-account.confirm_password_label": "Confirm new password",
+        "component.my-account.quick_account_notify_on_price_drop": "Receive price drop emails",
+        "component.my-account.quick_account_remember_me_label": "Remember me.",
+        "component.my-account.quick_account_remember_me_toggle": "What this means",
+        "component.my-account.quick_account_remember_me_description": "Check this box and we’ll remember your login details and you won’t need to sign in again for another 10 days. Please don’t do this on shared devices. See <a href=\"http://www.currys.co.uk/gbuk/privacy-on-currys-321-commercial.html\">Privacy Policy</a> for more details.",
+        "component.my-account.sign_in_title": "Sign in or register",
+        "component.my-account.sign_in_please": "Sign in, please",
+        "component.my-account.sign_in_name": "Sign in, [name]",
+        "component.my-account.sign_in_and_save_item": "Sign in & Save item",
+        "component.my-account.forgotten_your_password": "Forgot password?",
+        "component.my-account.quick_account_benefits_title": "Why save for later?",
+        "component.my-account.quick_account_benefits_list": "Save your favourites and we’ll save them for you to buy another time|We’ll email you when back in stock|<b>NEW!</b> Be notified when prices drop",
+        "component.my-account.response_error": "Unexpected server error, please try again or later.",
+        "component.my-account.quick_account_response_error": "Your request wasn´t saved, please refresh the page and try it again.",
+        "component.my-account.registration_confirmation_title": "Your account is created",
+        "component.my-account.sign_in_confirmation_title": "You're signed in",
+        "component.my-account.saving_success": "Item added to your <a href=\"/gbuk/s/my-account.html#/:wishlist\">Saved Items</a>",
+        "component.my-account.supply_extra_details": "Supply a few extra details now and make your checkout journey even quicker! <a href=\"gbuk/s/my-account.html#/manage-your-details/delivery-address\" class=\"dc-link\">Go to your account.</a>",
+        "component.my-account.continue_shopping": "Continue shopping",
+        "component.my-account.select_option": "Select:",
+        "component.my-account.quick_account_save_error_list_full": "Sorry, this item has not been added to your saved items. You have reached the maximum number of items that can be saved ([maxProductsCount]). Review your <a href=\"/gbuk/s/my-account.html#/:wishlist\">Saved Items</a>.",
+        "component.my-account.quick_account_save_error_already_in_list": "Item already in your <a href=\"/gbuk/s/my-account.html#/:wishlist\">Saved Items</a>.",
+        "component.my-account.reset_password_button": "Submit",
+        "component.my-account.forgotten_password": "Forgot password",
+        "component.my-account.forgotten_password_intro": "To start a password reset, please confirm your registered email address and we will email you a password reset link.",
+        "component.my-account.return_to_sign_in": "Return to sign in",
+        "component.my-account.quick_account_reset_password_request_message": "Thanks. We’re sending you an email on how to reset your password. Subject to our systems and your broadband connection, this may take up to 15 minutes to arrive.",
+        "component.my-account.similar_product_delivery_available": "FREE delivery available",
+        "component.my-account.similar_product_delivery_not_available": "Not available for delivery",
+        "component.my-account.similar_product_collect_available": "FREE collect in store available",
+        "component.my-account.similar_product_collect_not_available": "Collection not available",
+        "component.view-switch.view_label": "View:",
+        "component.view-switch.grid_label": "Grid",
+        "component.view-switch.list_label": "List",
+        "component.my-account.quick_account_remember_me_description": "Check this box and we’ll remember your login details and you won’t need to sign in again for another [DAYS_COUNT] days. Please don’t do this on shared devices. See <a href=\"http://www.currys.co.uk/gbuk/privacy-on-currys-321-commercial.html\">Privacy Policy</a> for more details.",
+        "component.my-account.quick_account_remember_me_toggle": "What this means",
+        "component.my-account.quick_account_remember_me_label": "Remember me."
+    }
+</script>
+<script id="app.settings" type="application/json-ld">
+    {
+        "component.save-for-later.weakMin": 6,
+        "component.save-for-later.goodMin": 8,
+        "component.save-for-later.strongMin": 10,
+        "component.save-for-later.is_price_drop_enabled": true,
+        "component.persistent-login.is_remember_me_enabled": true,
+        "component.persistent-login.remember_me_days_count": 60
+    }
+</script>
+<script>
+  const select = document.getElementById('theme-switcher-select');
+  const baseUrl = window.location.href;
+  const theme1 = document.createElement('option');
+  const theme2 = document.createElement('option');
+
+  theme1.innerText = 'Currys';
+  theme2.innerText = 'PCWorld';
+
+  if (baseUrl.indexOf(':300') > -1) { /* Local */
+    theme1.value = '3002:3001';
+    theme1.selected = baseUrl.indexOf(':3001') > -1;
+    theme2.value = '3001:3002';
+    theme2.selected = baseUrl.indexOf(':3002') > -1;
+  } else if (baseUrl.indexOf(':303') > -1) { /* Docker */
+    theme1.value = '3032:3031';
+    theme1.selected = baseUrl.indexOf(':3031') > -1;
+    theme2.value = '3031:3032';
+    theme2.selected = baseUrl.indexOf(':3032') > -1;
+  } else {
+    theme1.value = '/pcworld/:/currys/';
+    theme1.selected = baseUrl.indexOf('/currys/') > -1;
+    theme2.value = '/currys/:/pcworld/';
+    theme2.selected = baseUrl.indexOf('/pcworld/') > -1;
+  }
+
+  select.addEventListener('change', function (e) {
+    const [from, to] = e.target.value.split(':');
+    window.location = window.location.href.replace(from, to);
+  });
+
+  select.appendChild(theme1);
+  select.appendChild(theme2);
+</script>

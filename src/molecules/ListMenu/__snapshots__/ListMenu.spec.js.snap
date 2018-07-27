@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListMenu renders correctly 1`] = `
+.c0 {
+  font-size: 13px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: solid 1px #CCCCCC;
+  padding: 0 5px;
+}
+
+.c1 {
+  border-bottom: 1px solid #d8d8d8;
+  list-style: none;
+  margin: 0;
+}
+
+.c1:last-child {
+  border-bottom: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #4855A0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2 .c3 {
+  display: block;
+  color: #333333;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.c2 .c3 svg {
+  height: 15px;
+}
+
+<Component>
+  <ThemeProvider
+    theme={
+      Object {
+        "dcColorAlert": "#EE9022",
+        "dcColorAlertHover": "#FDEEDC",
+        "dcColorBuy": "#4E8130",
+        "dcColorBuyHover": "#426E29",
+        "dcColorCarphone": "#29A9DB",
+        "dcColorDirtyYellow": "#E4C55F",
+        "dcColorGs0": "#000000",
+        "dcColorGs1": "#222222",
+        "dcColorGs2": "#333333",
+        "dcColorGs3": "#666666",
+        "dcColorGs4": "#999999",
+        "dcColorGs5": "#CCCCCC",
+        "dcColorGs6": "#F2F2F2",
+        "dcColorGs7": "#FFFFFF",
+        "dcColorLight": "#ECF5FF",
+        "dcColorLink": "#4855A0",
+        "dcColorLinkHover": "#161B7A",
+        "dcColorMessage": "#4855A0",
+        "dcColorMessageHover": "#F5F7FD",
+        "dcColorPositive": "#4E8130",
+        "dcColorPositiveHover": "#F0F6EB",
+        "dcColorPrice": "#C90404",
+        "dcColorPriceHover": "#FFF2F2",
+        "dcColorPrimary": "#161B7A",
+        "dcColorPrimaryHover": "#161B7A",
+        "desktop": "only screen and (min-width: 1025px)",
+        "desktopLayout": "only screen and (min-width: 1025px)",
+        "gteDesktop": "only screen and (min-width: 1025px)",
+        "gteTablet": "only screen and (min-width: 768px)",
+        "mobile": "only screen and (max-width: 599px)",
+        "mobileLayoutLandscape": "only screen and (min-width: 1px) and (max-width: 812px) and (orientation: landscape)",
+        "mobileLayoutPortrait": "only screen and (min-width: 1px) and (max-width: 599px)",
+        "spacing1": "5px",
+        "spacing2": "10px",
+        "spacing3": "15px",
+        "spacing4": "20px",
+        "tablet": "only screen and (min-width: 600px) and (max-width: 1024px)",
+        "tabletLayoutLandscape": "only screen and (min-height: 600px) and (max-height: 1024px) and (orientation: landscape)",
+        "tabletLayoutPortrait": "only screen and (min-width: 600px) and (max-width: 1024px)",
+        "tabletMax": "only screen and (max-width: 767px)",
+        "tabletMin": "only screen and (min-width: 768px)",
+        "touch": "only screen and (max-width: 1024px)",
+        "wide": "only screen and (min-width: 1240px)",
+      }
+    }
+  >
+    <ListMenu
+      items={
+        Array [
+          Object {
+            "icon": "EnvelopeOpen",
+            "interaction": "Alerts list: Mark as read",
+            "label": "Mark as read",
+          },
+          Object {
+            "icon": "Bin",
+            "label": "Delete",
+          },
+        ]
+      }
+      style={
+        Object {
+          "margin": 10,
+          "width": 120,
+        }
+      }
+    >
+      <styled.ul
+        items={
+          Array [
+            Object {
+              "icon": "EnvelopeOpen",
+              "interaction": "Alerts list: Mark as read",
+              "label": "Mark as read",
+            },
+            Object {
+              "icon": "Bin",
+              "label": "Delete",
+            },
+          ]
+        }
+        style={
+          Object {
+            "margin": 10,
+            "width": 120,
+          }
+        }
+      >
+        <ul
+          className="c0"
+          style={
+            Object {
+              "margin": 10,
+              "width": 120,
+            }
+          }
+        >
+          <styled.li
+            key="0"
+          >
+            <li
+              className="c1"
+            >
+              <styled.a
+                data-interaction="Alerts list: Mark as read"
+                href="#"
+              >
+                <a
+                  className="c2"
+                  data-interaction="Alerts list: Mark as read"
+                  href="#"
+                >
+                  <Styled(Icon)
+                    icon="EnvelopeOpen"
+                  >
+                    <Icon
+                      className="c3 "
+                      icon="EnvelopeOpen"
+                      rotate={0}
+                      spin={false}
+                      visible={true}
+                    >
+                      <span
+                        className="dc-icon dc-icon-envelope-open c3 "
+                        data-component="Icon"
+                        data-name="EnvelopeOpen"
+                      >
+                        <EnvelopeOpen>
+                          <svg
+                            height={17}
+                            style={Object {}}
+                            viewBox="0 0 22 22"
+                            width={17}
+                          >
+                            <g
+                              fill="none"
+                              fillRule="evenodd"
+                            >
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M0 7.333L11 0l11 7.333V22H0z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M.65 7.681V21.35h20.7V7.681L11 .781.65 7.681z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M4.55 2.75h12.9a1.8 1.8 0 0 1 1.8 1.8v11.067a1.8 1.8 0 0 1-1.8 1.8H4.55a1.8 1.8 0 0 1-1.8-1.8V4.55a1.8 1.8 0 0 1 1.8-1.8z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M4.55 3.25a1.3 1.3 0 0 0-1.3 1.3v11.067a1.3 1.3 0 0 0 1.3 1.3h12.9a1.3 1.3 0 0 0 1.3-1.3V4.55a1.3 1.3 0 0 0-1.3-1.3H4.55z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M5.917 6.717v-.8h10.348v.8zm0 2.75v-.8h10.348v.8z"
+                                fill="#333"
+                                fillRule="nonzero"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M11 14.667l11-7.334V22H0V7.333l11 7.334z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M.5 8.268V21.5h21V8.268l-10.5 7-10.5-7z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M12.833 11.917L22 22H0l9.167-10.083z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M12.612 12.417H9.388L1.13 21.5h19.74l-8.258-9.083z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M0 7.333L11 0l11 7.333V22H0z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M.65 7.681V21.35h20.7V7.681L11 .781.65 7.681z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M4.55 2.75h12.9a1.8 1.8 0 0 1 1.8 1.8v11.067a1.8 1.8 0 0 1-1.8 1.8H4.55a1.8 1.8 0 0 1-1.8-1.8V4.55a1.8 1.8 0 0 1 1.8-1.8z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M4.55 3.25a1.3 1.3 0 0 0-1.3 1.3v11.067a1.3 1.3 0 0 0 1.3 1.3h12.9a1.3 1.3 0 0 0 1.3-1.3V4.55a1.3 1.3 0 0 0-1.3-1.3H4.55z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M5.917 6.717v-.8h10.348v.8zm0 2.75v-.8h10.348v.8z"
+                                fill="#333"
+                                fillRule="nonzero"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M11 14.667l11-7.334V22H0V7.333l11 7.334z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M.5 8.268V21.5h21V8.268l-10.5 7-10.5-7z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M12.833 11.917L22 22H0l9.167-10.083z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M12.612 12.417H9.388L1.13 21.5h19.74l-8.258-9.083z"
+                                stroke="#333"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M0 8h1.2v14H0zm20.8 0H22v14h-1.2z"
+                                fill="#333"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M0 20.8h22V22H0z"
+                                fill="#333"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M0 8h1.2v14H0zm20.8 0H22v14h-1.2z"
+                                fill="#333"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M0 20.8h22V22H0z"
+                                fill="#333"
+                              />
+                            </g>
+                          </svg>
+                        </EnvelopeOpen>
+                      </span>
+                    </Icon>
+                  </Styled(Icon)>
+                  Mark as read
+                </a>
+              </styled.a>
+            </li>
+          </styled.li>
+          <styled.li
+            key="1"
+          >
+            <li
+              className="c1"
+            >
+              <styled.a
+                href="#"
+              >
+                <a
+                  className="c2"
+                  href="#"
+                >
+                  <Styled(Icon)
+                    icon="Bin"
+                  >
+                    <Icon
+                      className="c3 "
+                      icon="Bin"
+                      rotate={0}
+                      spin={false}
+                      visible={true}
+                    >
+                      <span
+                        className="dc-icon dc-icon-bin c3 "
+                        data-component="Icon"
+                        data-name="Bin"
+                      >
+                        <Bin>
+                          <svg
+                            height={17}
+                            style={Object {}}
+                            viewBox="0 0 18 22"
+                            width={17}
+                          >
+                            <g
+                              fill="none"
+                              fillRule="evenodd"
+                            >
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M2.29 4.4h13.42v14.96A2.64 2.64 0 0 1 13.07 22H4.93a2.64 2.64 0 0 1-2.64-2.64V4.4z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M2.94 5.05v14.31a1.99 1.99 0 0 0 1.99 1.99h8.14a1.99 1.99 0 0 0 1.99-1.99V5.05H2.94z"
+                                stroke="#333"
+                              />
+                              <g
+                                transform="translate(.5)"
+                              >
+                                <rect
+                                  className="dc-icon--no-stroke"
+                                  fill="#fff"
+                                  rx="1.76"
+                                  x="5.368"
+                                />
+                                <rect
+                                  className="dc-icon--apply-stroke dc-icon--no-fill"
+                                  height="4.86"
+                                  rx="1.76"
+                                  stroke="#333"
+                                  width="4.963"
+                                  x="6.018"
+                                  y=".65"
+                                />
+                              </g>
+                              <path
+                                className="dc-icon--no-stroke"
+                                d="M.5 4.4c2.472-1.76 5.454-2.64 8.947-2.64 2.897 0 5.581.88 8.053 2.64v1.76H.5V4.4z"
+                                fill="#fff"
+                              />
+                              <path
+                                className="dc-icon--apply-stroke dc-icon--no-fill"
+                                d="M1.15 4.74v.77h15.7v-.77c-2.286-1.556-4.749-2.33-7.403-2.33-3.234 0-5.994.778-8.297 2.33z"
+                                stroke="#333"
+                                strokeWidth="1.3"
+                              />
+                              <path
+                                className="dc-icon--apply-fill dc-icon--no-stroke"
+                                d="M5.868 7.92h1v10.56h-1zm2.685 0h1v10.56h-1zm2.684 0h1v10.56h-1z"
+                                fill="#333"
+                              />
+                            </g>
+                          </svg>
+                        </Bin>
+                      </span>
+                    </Icon>
+                  </Styled(Icon)>
+                  Delete
+                </a>
+              </styled.a>
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </ListMenu>
+  </ThemeProvider>
+</Component>
+`;

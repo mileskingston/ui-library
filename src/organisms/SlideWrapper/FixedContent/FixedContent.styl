@@ -1,0 +1,17 @@
+@import "../../../style/constants";
+
+[data-component='FixedContent'] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: $z-index-min;
+  width: 255px;
+  background: $dc-color-gs-7;
+}
+
+.slide-wrapper-hidden-fixed-content [data-component='SlideWrapper'] [data-component='FixedContent'] {
+  display: none;
+}

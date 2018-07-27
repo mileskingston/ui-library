@@ -1,0 +1,40 @@
+@import "../../style/constants";
+
+.dc-product-availability {
+  padding: 10px 5px 10px 15px ;
+  border: 1px solid $dc-color-gs-5;
+  background-color: $dc-color-positive-hover;
+  font-size: 13px;
+  
+  @media $touch {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+}
+
+.dc-product-availability__location {
+  color: $dc-color-gs-2;
+  font-weight: bold;
+}
+
+.dc-product-availability__list {
+  display: flex;
+  margin: 5px 0 0;
+  
+  li.dc-list__item {
+    flex: 1 0 50%;
+    margin: 0;
+    padding-right: 10px;
+  }
+  
+  .dc-icon {
+    margin-top: -4px;
+    width: 22px;
+    height: @width;
+  }
+  
+  .dc-icon-tick {
+    fill: $dc-color-positive;
+    stroke: $dc-color-positive;
+  }
+}

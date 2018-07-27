@@ -1,0 +1,33 @@
+@import "../../style/constants/breakpoints.styl";
+
+.LayoutWrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .layout-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media $mobile-layout-portrait, $mobile-layout-landscape {
+  .LayoutWrapper>.layout-content {
+
+  }
+}
+
+@media $tablet-layout-portrait, $tablet-layout-landscape {
+  .LayoutWrapper>.layout-content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;    
+  }
+}
+
+@media $desktop-layout {
+  .LayoutWrapper>.layout-content {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+}

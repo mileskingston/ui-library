@@ -1,0 +1,116 @@
+body,
+.dc-site-currys,
+.dc-site-pcworld {
+  font-family: Helvetica, Arial, sans-serif;
+  /* Link color */
+  a {
+    color: $dc-color-link;
+
+    &:hover {
+      color: $dc-color-link;
+    }
+  }
+
+  /* Background color */
+  .dc-background-empty {
+    background-color: $dc-color-gs-7;
+  }
+  .dc-background-empty:hover {
+    background-color: $dc-color-light;
+  }
+  .dc-background-primary {
+    background-color: $dc-color-link;
+    color: $dc-color-gs-7;
+  }
+  .dc-background-primary-light {
+    background-color: $dc-color-light;
+  }
+  .dc-background-primary-hover:hover,
+  .dc-popup-header {
+    background-color: $dc-color-primary-hover;
+  }
+  .dc-background-info {
+    background-color: $dc-color-message-hover;
+  }
+  .dc-background-checkout {
+    background-color: $dc-color-gs-7;
+  }
+  .dc-background-checkout:hover {
+    background-color: $color-secondary-a-4;
+  }
+  .dc-background-checkout-download {
+    background-color: $dc-color-gs-7;
+  }
+  .dc-background-checkout-download:hover {
+    background-color: $dc-color-light;
+  }
+
+  /* Border color */
+  .dc-border-empty {
+    border-color: transparent;
+  }
+  .dc-border-primary {
+    border-color: $dc-color-link;
+  }
+  .dc-border-primary-hover:hover {
+    border-color: $dc-color-primary-hover;
+  }
+  .dc-border-checkout {
+    border-color: $dc-color-positive;
+  }
+  .dc-border-checkout-download {
+    border-color: $color-secondary-f-5;
+  }
+
+  /* Font color */
+  .dc-clr-primary {
+    color: $dc-color-link;
+    .dc-icon {
+      fill: @color;
+      stroke: @color;
+    }
+  }
+
+  .dc-clr-checkout {
+    color: $dc-color-positive;
+    .dc-icon {
+      fill: @color;
+      stroke: @color;
+    }
+  }
+
+  .dc-clr-checkout-download {
+    color: $color-secondary-f-5;
+    .dc-icon {
+      fill: @color;
+      stroke: @color;
+    }
+  }
+
+  /* Info tooltip color and border */
+  .dc-tooltip-info {
+    border-color: $dc-color-link;
+    background-color: $dc-color-message-hover;
+
+    &:before {
+      border-color: $dc-color-link;
+      background-color: $dc-color-message-hover;
+    }
+  }
+
+  /* Detail box color on hover */
+  .dc-detail-box-container:hover {
+    background-color: $dc-color-message-hover;
+
+    @media $mobile {
+      background-color: transparent;
+    }
+  }
+
+  /* Radio bullet color */
+  .dc-radio-bullet {
+    &:before {
+      background-color: $dc-color-link;
+    }
+  }
+}

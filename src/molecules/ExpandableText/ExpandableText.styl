@@ -1,0 +1,19 @@
+.dc-expandable-text {
+
+  &__content {
+    position: relative;
+    z-index: -1;
+    max-height: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in, max-height 0.2s ease-in;
+  }
+
+  &--expanded {
+    .dc-expandable-text__content {
+      z-index: 0;
+      max-height: 300px;
+      opacity: 1;
+    }
+  }
+
+}

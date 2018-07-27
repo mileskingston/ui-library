@@ -1,0 +1,23 @@
+{
+  "name": "@dc/ui-library-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "release": "./release.js"
+  },
+  "author": "Michal Vyšinský <Michal.Vysinsky@DixonsCarphone.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.3.2",
+    "command-exists": "^1.2.6",
+    "commander": "^2.15.1",
+    "execa": "^0.10.0",
+    "get-stream": "^3.0.0",
+    "inquirer": "^5.2.0",
+    "listr": "^0.13.0"
+  }
+}

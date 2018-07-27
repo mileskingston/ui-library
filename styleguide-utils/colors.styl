@@ -1,0 +1,78 @@
+for $type in "primary" "link" "buy"  "positive" "price" "alert" "message" {
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-color.dc-color-{$type}:before {
+    $color = lookup("$dc-color-" + $type);
+
+    position: relative;
+    top: 40px;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    content: "" + $color;
+  }
+
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-color.dc-color-{$type}-hover:before {
+    $color = lookup("$dc-color-" + $type + "-hover");
+
+    position: relative;
+    top: 40px;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    content: "" + $color;
+  }
+}
+
+for $level in (1..7) {
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-color.dc-color-gs-{$level}:before {
+    $color = lookup("$dc-color-gs-" + $level);
+
+    position: relative;
+    top: 40px;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    content: "" + $color;
+  }
+}
+
+/*!
+ * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+ */
+.sg-color.dc-color-dirty-yellow:before {
+  $color = $dc-color-dirty-yellow;
+
+  position: relative;
+  top: 40px;
+  margin: auto;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  content: "" + $color;
+}
+
+/*!
+ * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+ */
+.sg-color.dc-color-carphone:before {
+  $color = $dc-color-carphone;
+
+  position: relative;
+  top: 40px;
+  margin: auto;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  content: "" + $color;
+}

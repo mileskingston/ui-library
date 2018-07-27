@@ -1,0 +1,26 @@
+@import "../../style/constants";
+
+.dc-closable-tag {
+  display: inline-block;
+  padding: $spacing-xxs;
+  height: auto;
+  border: 1px solid $dc-color-gs-5;
+  border-radius: $border-radius;
+  background-color: $dc-color-gs-7;
+  font-size: $font-size-s;
+
+  &:hover {
+    background-color: #f9f9f9;
+  }
+
+  .dc-closable-tag__content {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .dc-close {
+    .dc-icon-cross {
+      fill: $currys-color;
+    }
+  }
+}

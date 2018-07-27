@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path class="dc-icon--no-stroke" fill="#fff" d="M0 7.33333L11 0l11 7.33333V22H0z"/>
+        <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333" strokeWidth="1.3"
+              d="M.65 7.6812V21.35h20.7V7.6812L11 .7812l-10.35 6.9z"/>
+        <path class="dc-icon--no-stroke" fill="#fff"
+              d="M4.55 2.75h12.9c.99411 0 1.8.80589 1.8 1.8v11.06667c0 .9941-.80589 1.8-1.8 1.8H4.55c-.99411 0-1.8-.8059-1.8-1.8V4.55c0-.99411.80589-1.8 1.8-1.8z"/>
+        <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333"
+              d="M4.55 3.25c-.71797 0-1.3.58203-1.3 1.3v11.06667c0 .71797.58203 1.3 1.3 1.3h12.9c.71797 0 1.3-.58203 1.3-1.3V4.55c0-.71797-.58203-1.3-1.3-1.3H4.55z"/>
+        <path class="dc-icon--apply-fill dc-icon--no-stroke" fill="#333" fill-rule="nonzero"
+              d="M5.91667 6.71667v-.8h10.3482v.8zM5.91667 9.46667v-.8h10.3482v.8z"/>
+        <path class="dc-icon--no-stroke" fill="#fff" d="M11 14.66667l11-7.33334V22H0V7.33333l11 7.33334z" id="c"/>
+        <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333"
+              d="M.5 8.2676V21.5h21V8.2676l-10.5 7-10.5-7z"/>
+        <path class="dc-icon--no-stroke" fill="#fff" d="M12.83333 11.91667L22 22H0l9.16667-10.08333z"/>
+        <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333"
+              d="M12.61215 12.41667h-3.2243L1.13028 21.5h19.73944l-8.25757-9.08333z"/>
+        <g>
+            <path class="dc-icon--no-stroke" fill="#fff" d="M0 7.33333L11 0l11 7.33333V22H0z"/>
+            <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333" strokeWidth="1.3"
+                  d="M.65 7.6812V21.35h20.7V7.6812L11 .7812l-10.35 6.9z"/>
+            <path class="dc-icon--no-stroke" fill="#fff"
+                  d="M4.55 2.75h12.9c.99411 0 1.8.80589 1.8 1.8v11.06667c0 .9941-.80589 1.8-1.8 1.8H4.55c-.99411 0-1.8-.8059-1.8-1.8V4.55c0-.99411.80589-1.8 1.8-1.8z"/>
+            <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333"
+                  d="M4.55 3.25c-.71797 0-1.3.58203-1.3 1.3v11.06667c0 .71797.58203 1.3 1.3 1.3h12.9c.71797 0 1.3-.58203 1.3-1.3V4.55c0-.71797-.58203-1.3-1.3-1.3H4.55z"/>
+            <path class="dc-icon--apply-fill dc-icon--no-stroke" fill="#333" fill-rule="nonzero"
+                  d="M5.91667 6.71667v-.8h10.3482v.8zM5.91667 9.46667v-.8h10.3482v.8z"/>
+            <path class="dc-icon--no-stroke" fill="#fff" d="M11 14.66667l11-7.33334V22H0V7.33333l11 7.33334z"/>
+            <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333"
+                  d="M.5 8.2676V21.5h21V8.2676l-10.5 7-10.5-7z"/>
+            <path class="dc-icon--no-stroke" fill="#fff" d="M12.83333 11.91667L22 22H0l9.16667-10.08333z"/>
+            <path class="dc-icon--apply-stroke dc-icon--no-fill" stroke="#333"
+                  d="M12.61215 12.41667h-3.2243L1.13028 21.5h19.73944l-8.25757-9.08333z"/>
+            <path class="dc-icon--apply-fill dc-icon--no-stroke" fill="#333" d="M0 8h1.2v14H0zM20.8 8H22v14h-1.2z"/>
+            <path class="dc-icon--apply-fill dc-icon--no-stroke" fill="#333" d="M0 20.8h22V22H0z"/>
+        </g>
+        <path class="dc-icon--apply-fill dc-icon--no-stroke" fill="#333" d="M0 8h1.2v14H0zM20.8 8H22v14h-1.2z"/>
+        <path class="dc-icon--apply-fill dc-icon--no-stroke" fill="#333" d="M0 20.8h22V22H0z"/>
+    </g>
+</svg>

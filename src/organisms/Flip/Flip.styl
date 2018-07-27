@@ -1,0 +1,66 @@
+@import "../../style/constants";
+
+$rotation-speed = 0.8s;
+
+.dc-flip {
+  position: relative;
+}
+
+.dc-flip, .dc-flip-front, .dc-flip-back {
+  transition: $rotation-speed;
+  transform-style: preserve-3d;
+}
+
+.dc-flip-front, .dc-flip-back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+  
+.dc-flip-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+  
+.dc-flip-back {
+  transform: rotateY(-180deg);
+  background: #efefef;
+}
+
+.dc-flip-container {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  
+  &.dc-flip-vertical {
+    position: relative;
+    
+    .dc-flip-back {
+      transform: rotateX(180deg);
+    }
+      
+    &.dc-flip-rotate {
+      .dc-flip-back {
+        transform: rotateX(0deg);
+      }
+      .dc-flip-front {
+        transform: rotateX(180deg);
+      }
+      
+    }
+  }
+    
+  &.dc-flip-rotate {
+    position: relative;
+    z-index: 100;
+    
+    .dc-flip-back {
+      transform: rotateY(0deg);
+    }
+    .dc-flip-front {
+      transform: rotateY(180deg);
+    }
+  }
+}

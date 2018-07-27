@@ -1,0 +1,81 @@
+@import "../../style/constants";
+
+.dc-content-block {
+  display: block;
+  background-color: $dc-color-gs-7;
+  padding: 20px;
+  margin: 10px 10px 20px 10px;
+
+  @media $tablet {
+    display: block;
+    margin-bottom: 10px;
+    
+    &:after {
+      content: ' ';
+      height: 0;
+      display: block;
+      visibility: hidden;
+      clear: both;
+    }
+  }
+
+  @media $mobile {
+    display: block;
+  }
+
+  h3 {
+    margin: 0;
+    margin-top: 15px;
+    padding: 0 7px;
+  }
+
+  .dc-content-block__image {
+    display: block;
+    height: 150px;
+    text-align: center;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    @media $tablet {
+      display: block;
+      width: 250px;
+      height: auto;
+      float: left;
+    }
+  }
+
+  .dc-content-block__block {
+    display: block;
+    float: none;
+
+    @media $tablet {
+      display: block;
+      margin-left: 287px;
+    }
+  }
+
+  .dc-content-block__divider {
+    height: 1px;
+    border-top: 1px solid $color-primary-d-6-5;
+    margin: 5px -12px 0 -12px;
+  }
+
+  .dc-content-block__body {
+    margin-top: 10px;
+    padding: 0 7px;
+
+    ul {
+      width: 100%;
+      list-style-type: disc;
+      padding-left: 16px;
+      margin-top: 10px;
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

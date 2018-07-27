@@ -1,0 +1,29 @@
+@import "../../style/constants";
+
+.dc-carousel {
+  overflow: hidden;
+}
+
+.dc-carousel__item {
+  display: inline-block;
+}
+
+.dc-carousel__navigation {
+  padding: 10px 0;
+  border-top: 1px solid $dc-color-gs-6;
+  text-align: center;
+}
+  
+.dc-carousel__navigation__item {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px 0 3px;
+  border-radius: 50%;
+  background-color: $dc-color-gs-5;
+  cursor: pointer;
+}
+
+.dc-carousel__navigation__item--current {
+  background-color: $dc-color-gs-3;
+}

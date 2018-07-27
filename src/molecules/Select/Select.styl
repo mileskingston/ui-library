@@ -1,0 +1,140 @@
+@import "../../style/constants";
+
+.dc-select-flexible-width {
+  display: inline-block;
+  vertical-align: top;
+  
+  @media $mobile {
+    display: block;
+  }
+}
+
+.dc-select-select {
+  position: relative;
+  outline: 0;
+  vertical-align: top;
+  font-size: $font-size-xs;
+  line-height: normal;
+}
+
+.dc-select-input {
+  box-sizing: border-box;
+  padding: 13px 30px 13px 20px;
+  height: 43px;
+  border: 1px solid;
+  border-color: $color-primary-d-5;
+  border-radius: 4px;
+  color: inherit;
+  font-size: $font-size-xs;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.dc-select-valid {
+  border-color: $color-secondary-a-2;
+}
+
+.dc-select-invalid {
+  border-color: $dc-color-price;
+}
+
+.dc-select-disabled {
+  border-color: $dc-color-gs-5;
+  color: $color-primary-d-5;
+  cursor: not-allowed;
+}
+
+.dc-select-label {
+  display: inline-block;
+  padding: 0;
+}
+
+.dc-select-icon {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  pointer-events: none;
+
+  .dc-icon {
+    width: 12px;
+  }
+}
+
+.dc-select-clear {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  display: none;
+  width: 20px;
+  cursor: pointer;
+}
+
+.dc-select-has-selection {
+  display: block;
+}
+
+.dc-select-clear [data-element="Icon"] {
+  fill: $color-primary-d-5;
+  color: $color-primary-d-5;
+}
+
+.dc-select-list {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 1px solid;
+  border-color: $color-primary-d-5;
+  border-radius: 0 0 3px 3px;
+  background: white;
+  box-shadow: 1px 1px 3px $color-primary-d-5;
+  list-style: none;
+}
+
+.dc-select-list-expanded {
+  display: block;
+}
+
+.dc-select-list-item {
+  margin: -1px 0 0;
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid $dc-color-gs-5;
+  background: transparent;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dc-select-list-selected {
+  font-weight: bold;
+}
+.dc-select-list-highlighted {
+  background: $dc-color-gs-6;
+}
+.dc-select-list-disabled {
+  background: white;
+  color: $color-primary-d-5;
+  cursor: not-allowed;
+
+  &.dc-select-list-selected {
+    font-weight: normal;
+  }
+}
+.dc-select-list-item-empty {
+  color: $dc-color-gs-3;
+  cursor: default;
+}
+  
+.dc-input-fake-longest-option {
+  display: block;
+  overflow: hidden;
+  height: 0;
+}

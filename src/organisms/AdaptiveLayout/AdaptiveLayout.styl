@@ -1,0 +1,40 @@
+@import "../../style/constants/breakpoints.styl";
+
+[data-layout]:after {
+  content: "mobile";
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  display: none;
+}
+
+@media $mobile-layout-portrait {
+  [data-layout]:after {
+    content: "mobile";
+  }
+}
+
+@media $tablet-layout-portrait {
+  [data-layout]:after {
+    content: "tablet";
+  }
+}
+
+@media $mobile-layout-landscape {
+  [data-layout]:after {
+    content: "mobile-landscape";
+  }
+}
+
+@media $tablet-layout-landscape {
+  [data-layout]:after {
+    content: "tablet-landscape";
+  }
+}
+
+@media $desktop-layout {
+  [data-layout]:after {
+    content: "desktop";
+  }
+}

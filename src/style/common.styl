@@ -1,0 +1,284 @@
+@import "constants";
+@import "./siteSkin.styl";
+@import "../atoms/**/*.styl";
+
+/***** General *****/
+
+.dc-clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  
+  &:after {
+    clear: both;
+  }
+}
+
+.dc-login-component,
+.dc-my-account {
+  input:invalid, textarea:invalid {
+    background-color: transparent;
+  }
+}
+
+.dc-route-enter {
+  opacity: 0.01;
+  transition: opacity 0.5s ease-in;
+}
+.dc-route-enter.dc-route-enter-active {
+  opacity: 1;
+}
+.dc-route-leave.dc-route-leave-active {
+  display: none;
+}
+
+.dc-border {
+  border: 1px solid $dc-color-gs-5;
+}
+
+.dc-border-bottom {
+  border-bottom: 1px solid $dc-color-gs-5;
+}
+
+.dc-border-left {
+  border-left: 1px solid $dc-color-gs-5;
+}
+
+.dc-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: $dc-color-link;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/***** Device Type Detector *****
+ * Used to detect device type in JavaScript
+ * 0: wide
+ * 1: desktop
+ * 2: tablet
+ * 3: mobile
+ */
+.dc-device-detector {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  z-index: 1; // Desktop is default
+
+  @media $wide {
+    z-index: 0;
+  }
+  @media $tablet {
+    z-index: 2;
+  }
+  @media $mobile {
+    z-index: 3;
+  }
+}
+
+/***** Grid *****/
+.dc-grid {
+  margin-bottom: $spacing-s;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.dc-grid-item,
+[class*="-of-12"] {
+  display: inline-block;
+  vertical-align: top;
+}
+
+for i in (1..12) {
+  .dc-desktop-{i}-of-12 {
+    width: (100 * i / 12)%;
+  }
+}
+
+@media $tablet {
+  for i in (1..12) {
+    .dc-tablet-{i}-of-12 {
+      width: (100 * i / 12)%;
+    }
+  }
+}
+
+@media $mobile {
+  for i in (1..12) {
+    .dc-mobile-{i}-of-12 {
+      width: (100 * i / 12)%;
+    }
+  }
+}
+
+sizes = {
+  xxxxs: $spacing-xxxxs
+  xxxs: $spacing-xxxs
+  xxs: $spacing-xxs
+  xs: $spacing-xs
+  s: $spacing-s
+  m: $spacing-m
+  l: $spacing-l
+  xl: $spacing-xl
+  xxl: $spacing-xxl
+  xxxl: $spacing-xxxl
+  xxxxl: $spacing-xxxxl
+}
+
+for size, size-variable in sizes {
+  .dc-padding-desktop-right-{size} {
+    padding-right: size-variable;
+  }
+  .dc-padding-desktop-left-{size} {
+    padding-left: size-variable;
+  }
+  .dc-padding-{size} {
+    padding: size-variable;
+  }
+}
+
+@media $tablet {
+  for size, size-variable in sizes {
+    .dc-padding-tablet-right-{size} {
+      padding-right: size-variable;
+    }
+  }
+}
+
+@media $mobile {
+  for size, size-variable in sizes {
+    .dc-padding-mobile-right-{size} {
+      padding-right: size-variable;
+    }
+  }
+}
+
+.dc-grid-padding-large-right {
+  padding-right: 42px;
+
+  @media $tablet {
+    padding-right: 35px;
+  }
+
+  @media $mobile {
+    padding-right: 0;
+  }
+}
+
+.dc-gutter-top {
+  margin-top: $spacing-l;
+}
+
+.dc-gutter-bottom {
+  margin-bottom: $spacing-l;
+}
+.dc-gutter-bottom-none {
+  margin-bottom: 0;
+}
+
+/***** Paragraph *****/
+
+.dc-ellipsis {
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+.dc-word-wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.dc-float-left {
+  float: left;
+}
+.dc-float-right {
+  float: right;
+}
+
+.dc-address-listing {
+  font-size: $font-size-xs;
+  line-height: 19px;
+}
+
+.dc-hidden {
+  display: none;
+}
+
+.dc-overflow-hidden {
+  overflow: hidden;
+}
+
+.dc-background-gray {
+  background-color: #efefef;
+
+  .dc-form-item-label {
+    background: transparent;
+  }
+
+  .dc-form-item-label:before {
+    position: absolute;
+    top: 50%;
+    left: -1px;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: "";
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1024px) {
+      height: 2px;
+      transform: translateY(-0.7px);
+    }
+  }
+}
+
+.dc-icon-heart-stroke {
+  stroke-width: 0;
+  width: 22px;
+}
+
+.dc-icon + .dc-link-label {
+  padding-left: 5px;
+}
+
+// TODO remove when Form moved in ui-library
+.dc-form-item-label {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  z-index: 0;
+  padding: 0;
+  width: auto;
+  color: $dc-color-gs-3;
+  font-size: $font-size-xs;
+  transition: all 0.2s ease-in-out;
+  transform: translate3d(0, 0, 0);
+
+  .dc-input-icon + & {
+    left: 37px;
+  }
+}
+
+.dc-form-item-label-top {
+  z-index: 2;
+  padding: 0 3px;
+  transform: translateY(-21px);
+  background-color: $dc-color-gs-7;
+  font-size: $font-size-xxs;
+  transition: all 0.2s ease-in-out;
+
+  .dc-input-icon + & {
+    left: 14px;
+  }
+
+  .dc-input-disabled + & {
+    background: linear-gradient(to bottom, $dc-color-gs-7, #f7f7f7);
+  }
+}

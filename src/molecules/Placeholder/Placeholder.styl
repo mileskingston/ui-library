@@ -1,0 +1,55 @@
+.dc-placeholder {
+  display: flex;
+  padding: 20px 46px 20px 5px;
+  
+  @media $tablet {
+    padding: 15px 36px 15px 0;
+  }
+  
+  @media $mobile {
+    padding: 10px 31px 10px 0;
+  }
+}
+
+.dc-placeholder__image {
+  width: 40px;
+  height: @width;
+  margin: 10px 25px;
+  background-color: $dc-color-gs-6;
+  
+  @media $mobile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.dc-placeholder__content {
+  flex-grow: 1;
+}
+
+.dc-placeholder__line {
+  height: 10px;
+  margin-bottom: 10px;
+  background-color: $dc-color-gs-6;
+}
+
+.dc-placeholder--loading {
+  .dc-placeholder__line,
+  .dc-placeholder__image {
+    background: linear-gradient(45deg, $dc-color-gs-6, $dc-color-gs-5, $dc-color-gs-6);
+    background-size: 400% 400%;
+    animation: Gradient 1.5s ease infinite;
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 100% 50%
+    }
+    50% {
+      background-position: 0% 50%
+    }
+    100% {
+      background-position: 100% 50%
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "productVariants":[
+    {
+      "title":"Color",
+      "swatch_title":"Colour:",
+      "current_product_variant":"purple",
+      "current_product_fupid":"10144959",
+      "variants":[
+        {
+          "fupid":"10144962",
+          "variant":"black",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-black-large-10144962-pdt.html",
+          "swatch_img_url":"/swatches/black.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/2/6/10144962/u_10144962.jpg",
+          "price":"&pound;99.99",
+          "saving":"&pound;9.99",
+          "was_price": "&pound;2.69",
+          "out_of_stock":true,
+          "show_email_me_back_link":true,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        },
+        {
+          "fupid":"10144957",
+          "variant":"blue",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-blue-large-10144957-pdt.html",
+          "swatch_img_url":"/swatches/blue.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/7/5/10144957/u_10144957.jpg",
+          "price":"&pound;99.99",
+          "saving":false,
+          "out_of_stock":true,
+          "show_email_me_back_link":false,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        },
+        {
+          "fupid":"10144964",
+          "variant":"blue",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-teal-large-10144964-pdt.html",
+          "swatch_img_url":"/swatches/blue.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/4/6/10144964/u_10144964.jpg",
+          "price":"&pound;99.99",
+          "saving":false,
+          "out_of_stock":true,
+          "show_email_me_back_link":true,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        },
+        {
+          "fupid":"10144959",
+          "variant":"purple",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-plum-large-10144959-pdt.html",
+          "swatch_img_url":"/swatches/purple.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/9/5/10144959/u_10144959.jpg",
+          "price":"&pound;99.99",
+          "saving":false,
+          "out_of_stock":false,
+          "show_email_me_back_link":false,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        }
+      ]
+    },
+    {
+      "title":"Capacity",
+      "swatch_title":"Capacity:",
+      "current_product_variant":"purple",
+      "current_product_fupid":"10144957",
+      "variants":[
+        {
+          "fupid":"10144962",
+          "variant":"black",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-black-large-10144962-pdt.html",
+          "swatch_img_url":"/swatches/swatch1.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/2/6/10144962/u_10144962.jpg",
+          "price":"&pound;99.99",
+          "saving":"&pound;9.99",
+          "out_of_stock":false,
+          "show_email_me_back_link":false,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        },
+        {
+          "fupid":"10144957",
+          "variant":"blue",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-blue-large-10144957-pdt.html",
+          "swatch_img_url":"/swatches/swatch2.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/7/5/10144957/u_10144957.jpg",
+          "price":"&pound;99.99",
+          "saving":false,
+          "out_of_stock":false,
+          "show_email_me_back_link":false,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        },
+        {
+          "fupid":"10144964",
+          "variant":"blue",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-teal-large-10144964-pdt.html",
+          "swatch_img_url":"/swatches/swatch3.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/4/6/10144964/u_10144964.jpg",
+          "price":"&pound;99.99",
+          "saving":false,
+          "out_of_stock":false,
+          "show_email_me_back_link":false,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        },
+        {
+          "fupid":"10144959",
+          "variant":"purple",
+          "product_url":"http://common.fo-currys.fo.dev.dixons.com/gbuk/smart-tech/smart-tech/smart-watches-and-fitness/fitness-trackers/fitbit-alta-plum-large-10144959-pdt.html",
+          "swatch_img_url":"/swatches/swatch4.jpg",
+          "img_url":"http://brain-images.cdn.dixons.com/9/5/10144959/u_10144959.jpg",
+          "price":"&pound;99.99",
+          "saving":false,
+          "out_of_stock":false,
+          "show_email_me_back_link":false,
+          "product_features":[
+            "Tracks steps / distance / calories",
+            "Monitors sleep with silent alarm"
+          ]
+        }
+      ]
+    }
+  ]
+}

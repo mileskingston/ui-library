@@ -1,0 +1,29 @@
+.dc-pagination {
+  display: inline-block;
+  white-space: nowrap;
+  clear: both;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-left: 0;
+
+  .dc-pagination__item {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .dc-pagination__item a {
+    border-left: 1px solid #ccc;
+    display: block;
+    padding: 10px;
+    min-width: 1em;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .dc-pagination__item--current {
+    background: #f7f7f7;
+    color: #999;
+    cursor: default;
+  }
+}

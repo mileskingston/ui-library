@@ -1,0 +1,120 @@
+@import "../../style/constants";
+
+$price-disabled-color = #a9a9a9;
+
+.dc-product-block {
+
+  .dc-product-block-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dc-product-block-title {
+    margin: 0 0 $spacing-xxs;
+    font-weight: normal;
+    font-size: $font-size-s;
+  }
+    
+  .dc-product-block-image {
+    margin-right: 3%;
+    width: 35%;
+    text-align: center;
+    
+    img {
+      width: 100%;
+      height: auto !important; // IE 10
+      
+      @media $mobile {
+        max-width: 120px;
+      }
+    }
+  }
+
+  .dc-product-block-price-drop-active {
+    margin-top: -10px;
+  }
+
+  .dc-product-block-price-drop-label {
+    height: 20px;
+    background: $tooltip-negative-2;
+    color: $dc-color-price;
+    font-weight: bold;
+    line-height: 1.7;
+  }
+
+  .dc-icon-price-tag {
+    margin-top: -6px;
+    fill: $dc-color-price;
+    width: 13px;
+    height: @width;
+  }
+}
+
+.dc-product-block-price-info {
+  padding: 10px 3% 0 3%;
+  width: 62%;
+  
+  hr {
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: #d3d3d3;
+  }
+  
+  .dc-spacing-top {
+    margin-top: 2px;
+  }
+  
+  .dc-spacing-bottom {
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  
+  .dc-product-block-price {
+    margin: 0;
+    padding: 0;
+    color: $dc-color-price;
+    font-weight: bold;
+    font-size: $font-size-m;
+  }
+
+  .dc-product-block-save-price {
+    margin: 0;
+    margin-top: -3px !important;
+    padding: 0;
+    color: $dc-color-gs-2;
+    font-weight: bold;
+    font-size: $font-size-xxs;
+  }
+
+  .dc-product-block-was-price {
+    margin: 0;
+    margin-top: 3px !important;
+    padding: 0;
+    color: $dc-color-gs-3;
+    font-size: $font-size-xxs;
+    line-height: 1.2em;
+  }
+
+  &.dc-product-block-price-disabled {
+    .dc-product-block-price,
+    .dc-product-block-save-price {
+      color: $price-disabled-color;
+    }
+  
+    .dc-product-block-was-price {
+      color: $dc-color-gs-4;
+    }
+  }
+
+  .dc-product-block-rating {
+    margin-top: $spacing-xxs;
+    font-size: $font-size-xxs;
+  }
+
+  .dc-product-block-no-reviews-message {
+    color: #222;
+    font-size: $font-size-xxs;
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'
+width='24' height='35' viewBox='0 0 24 35'>
+    <defs>
+        <lineargradient id='a'>
+            <stop offset='0' stopColor='#999' />
+            <stop offset='1' stopColor='#999' stopOpacity='0' />
+        </lineargradient>
+        <radialgradient xlinkHref='#a' id='b' cx='11.537' cy='27.181' fx='11.537'
+        fy='27.181' r='11.949' gradienttransform='matrix(1 0 0 .56417 0 11.846)'
+        gradientunits='userSpaceOnUse' />
+    </defs>
+    <g transform='translate(.5 1.083)' fill='none' fillRule='evenodd'>
+        <ellipse ry='6.741' rx='11.949' cy='27.181' cx='11.537' fill='url(#b)'
+        fillRule='nonzero' />
+        <path d='M11.5 29.042S.5 16.784.5 10.71c0-6.077 4.925-11 11-11s11 4.923 11 11c0 6.074-11 18.332-11 18.332zm0-13.2c2.835 0 5.133-2.298 5.133-5.133 0-2.837-2.298-5.135-5.133-5.135S6.367 7.873 6.367 10.71c0 2.834 2.298 5.132 5.133 5.132z'
+        fill='#fff' fillOpacity='.995' stroke='#4855a0' />
+    </g>
+</svg>

@@ -1,0 +1,78 @@
+@require "../src/atoms/spacing/variables.styl";
+
+for $size in "1" "2" "3" "4" {
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-border-class-example-{$size} {
+    margin: 5px;
+    padding: 10px;
+    border: lookup("$spacing-" + $size) solid darkblue !important;
+    text-align: center;
+    font-weight: bold;
+
+    &:after {
+      $content = lookup("$spacing-" + $size);
+      content: ".dc-[padding | margin]-" + $size + " (" + $content + ")";
+      vertical-align: middle;
+    }
+  }
+
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-border-variable-example-{$size} {
+    margin: 5px;
+    padding: 10px;
+    border: lookup("$spacing-" + $size) solid darkblue !important;
+    text-align: center;
+    font-weight: bold;
+
+    &:after {
+      $content = lookup("$spacing-" + $size);
+      content: "$spacing-" + $size + " (" + $content + ")";
+      vertical-align: middle;
+    }
+  }
+
+  for $side in "top" "right" "bottom" "left" {
+    /*!
+     * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+     */
+    .sg-border-class-example-{$side}-{$size} {
+      margin: 5px;
+      padding: 10px;
+      background: lightgray;
+      border-{$side}: lookup("$spacing-" + $size) solid darkblue !important;
+
+      &:after {
+        $content = lookup("$spacing-" + $size);
+        content: ".dc-[padding | margin]-" + $side + "-" + $size + " (" + $content + ")";
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+// DEPRECATED - kept for examples of deprecated spacing
+for $size in "xxxxs" "xxxs" "xxxs" "xxs" "xs" "s" "m" "l" "xl" "xxl" "xxxl" "xxxxl" {
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-border-example-{$size} {
+    margin: 5px;
+    padding: 10px;
+    border: lookup("$spacing-" + $size) solid darkblue !important;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /*!
+   * ONLY FOR STYLEGUIDE PURPOSES! DO NOT USE!
+   */
+  .sg-border-example-{$size}:after {
+    $content = lookup("$spacing-" + $size);
+    content: "$spacing-" + $size + " (" + $content + ")";
+    vertical-align: middle;
+  }
+}

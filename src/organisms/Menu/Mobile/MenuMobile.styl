@@ -1,0 +1,142 @@
+@import "../../../style/constants";
+
+[data-component='MenuMobile'] {
+  height: 100%;
+  position: relative;
+  [data-component="Icon"] svg {
+    stroke: none;
+  }
+  [data-element='Toolbar'] {
+    width: 100%;
+    min-height: 46px;
+    background: linear-gradient(to bottom, #eee, #dedede);
+
+    [data-element='Controls'] {
+      border-bottom: 1px solid $dc-color-gs-5;
+
+      [data-element='Title'] {
+        margin: 0 53px;
+        overflow: hidden;
+        font-weight: bold;
+        color: $dc-color-gs-2;
+        font-size: 14px;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 46px
+      }
+
+      [data-element='BackButton'], [data-element='ProductListingButton'] {
+        position: absolute;
+        height: 36px;
+        width: 36px;
+        border: 1px solid rgba(0,0,0,0.15);
+        background: linear-gradient(to bottom, #eee, #dedede);
+        box-shadow: inset 0 1px 0 rgba($dc-color-gs-7, 0.2), 0 1px 0 rgba($dc-color-gs-7 ,0.2);
+        transition: border 0.2s ease;        
+
+        &:focus {
+          border-color: $dc-color-gs-2;
+          outline: none;
+        }
+
+        [data-component="Icon"] svg {
+          width: 14px;
+          height: 14px;
+        }
+      }
+
+      [data-element='BackButton'] {
+        left: 5px;
+        top: 5px;
+      }
+
+      [data-element='ProductListingButton'] {
+        right: 5px;
+        top: 5px;
+
+        [data-component="Icon"] svg {
+          width: 18px;
+          height: 18px;
+          margin-top: 8px;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  [data-element='Breadcrumbs'] {
+    padding: 7px;
+    background: #efefef;
+    border-bottom: 1px solid $dc-color-gs-5;
+    line-height: 1.3;
+  }
+
+  [data-element='Column'] {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .3s ease-in-out;
+    background: $dc-color-gs-7;
+    padding: 0;
+    margin: 0;
+    li {
+      display: block;
+      line-height: 1.2;
+      background: $dc-color-gs-7;
+      border-bottom: 1px solid $dc-color-gs-5;
+
+      .link {
+        display: block;
+        padding: 14px 10px;
+        font-weight: bold;
+        font-size: 14px;
+        color: $dc-color-gs-2;
+        cursor: pointer;
+
+        &:active {
+          background: $dc-color-primary-hover;
+          color: $dc-color-gs-7;
+        }
+
+        .caption {
+          display: block;
+          padding-right: 15px;
+        }
+
+        [data-component="Icon"] {
+          position: relative;
+          right: -3px;
+          top: 1px;
+          float: right;
+          color: $dc-color-gs-3;
+          fill: $dc-color-gs-3;
+
+          svg {
+            width: 17px;
+            height: 17px;
+          }
+        }
+      }
+
+      a.link {
+        &:hover {
+          .caption {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    [data-element='Column'] {
+      position: absolute;
+      top: 0;
+      right: -100%;
+    }
+
+    li.active > [data-element='Column'] {
+      transform: translateX(-100%);
+    }
+  }
+}

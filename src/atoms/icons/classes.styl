@@ -1,0 +1,113 @@
+.dc-icon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  box-sizing: border-box;
+
+  &--hidden {
+    visibility: hidden;
+  }
+
+  &--apply-fill {
+    fill: currentColor;
+  }
+
+  &--apply-stroke {
+    stroke: currentColor;
+  }
+
+  &--no-fill {
+    fill: none;
+  }
+
+  &--no-stroke {
+    stroke: none;
+  }
+}
+
+.dc-icon-bell,
+.dc-icon-credit,
+.dc-icon-cross-circle,
+.dc-icon-external-link,
+.dc-icon-flip,
+.dc-icon-help,
+.dc-icon-info-alternative,
+.dc-icon-print,
+.dc-icon-sign-out {
+  stroke: none !important;
+}
+
+.dc-icon-spinner {
+  stroke-dasharray: 209.54422999443918 79.48229413582177; // @stylint ignore
+  stroke-width: 8;
+}
+
+.dc-icon-share {
+  color: $dc-color-gs-2;
+
+  circle {
+    fill: currentColor;
+    stroke: none;
+  }
+
+  path {
+    fill: none;
+    stroke: currentColor;
+  }
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dc-spin {
+  display: inline-block;
+  animation: spin 1s infinite linear;
+}
+
+for i in (1..3) {
+  .dc-rotate-{i * 90} {
+    transform: rotate((i * 90)deg);
+  }
+}
+
+.dc-icon-large {
+  width: 28px;
+  height: 28px;
+}
+
+// Social icons
+.dc-icon-facebook {
+  fill: #3b5998 !important;
+  stroke: @fill;
+}
+
+.dc-icon-twitter {
+  fill: #1da1f2 !important;
+  stroke: @fill;
+}
+
+.dc-icon-google-plus {
+  fill: #dd4b39 !important;
+  stroke: @fill;
+}
+
+.dc-icon-pinterest {
+  fill: #bd081c !important;
+  stroke: @fill !important;
+}
+
+.dc-icon-hot-deals-uk {
+  fill: #6d8800 !important;
+  stroke: @fill;
+}

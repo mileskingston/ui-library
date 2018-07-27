@@ -1,0 +1,226 @@
+@import "../../style/constants";
+
+.dc-stay-in-touch-wrapper {
+  .dc-expandable-text-link {
+    color: $dc-color-link;
+    text-decoration: none;
+
+    .dc-icon {
+      position: relative;
+      top: -1px;
+      width: 22px;
+      height: 22px;
+
+      svg {
+        width: @width;
+        height: @height;
+      }
+    }
+  }
+}
+
+.dc-stay-in-touch-block {
+  &__header {
+    margin: 0 0 $spacing-2 0;
+
+    &--size-smaller {
+      font-size: 14px;
+
+      .dc-icon {
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    &--size-normal {
+      font-size: 16px;
+
+      .dc-icon {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    &--size-bigger {
+      font-size: 18px;
+
+      .dc-icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .dc-icon {
+      position: relative;
+      top: -1px;
+      margin-right: $spacing-2;
+    }
+  }
+  &__content {
+    .dc-on-off-switch-wrapper {
+      & ~ .dc-on-off-switch-wrapper {
+        margin-top: $spacing-2;
+      }
+
+      .dc-on-off-switch-description {
+        color: $dc-color-gs-1;
+
+        .dc-link {
+          position: relative;
+          top: -2px;
+          margin-left: $spacing-1;
+          padding: $spacing-1 0;
+          color: $dc-color-link;
+
+          .dc-icon {
+            margin-top: 3px;
+          }
+        }
+      }
+    }
+
+    &__error-message {
+      margin: $spacing-2 0 0;
+      color: #cb0000;
+    }
+
+    &__contact-channels-box {
+      margin-top: $spacing-2;
+      padding: $spacing-2 $spacing-2 $spacing-2 68px;
+      background: $dc-color-message-hover;
+      color: $dc-color-gs-1;
+
+      & + span .dc-on-off-switch-wrapper {
+        margin-top: $spacing-2;
+      }
+
+      p {
+        margin: 0 0 7px 0;
+      }
+
+      &--no-selection {
+        background: #fefaf1;
+      }
+
+      &--has-error {
+        background: #ffefef;
+
+        p {
+          color: #cb0000;
+        }
+      }
+
+      &__items {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -($spacing-2);
+
+        .dc-checkbox-wrapper {
+          margin-right: $spacing-3;
+          margin-bottom: $spacing-2;
+          padding: 0;
+
+          &:hover {
+            background-color: transparent;
+          }
+
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  &--border-none {
+    .dc-stay-in-touch-block__content {
+      margin-bottom: $spacing-2;
+      padding: $spacing-2;
+
+      @media $desktop {
+        padding: $spacing-4;
+      }
+    }
+  }
+
+  &--border-inner {
+    .dc-stay-in-touch-block__content {
+      margin-bottom: $spacing-1;
+      padding: $spacing-2;
+      border: solid 1px $dc-color-gs-5;
+
+      @media $desktop {
+        padding: $spacing-4;
+      }
+    }
+  }
+
+  &--border-outer {
+    margin-bottom: $spacing-1;
+    padding: $spacing-2;
+    border: solid 1px $dc-color-gs-5;
+
+    @media $desktop {
+      padding: $spacing-4;
+    }
+  }
+
+  &--border-outer-heading-bg {
+    margin-bottom: $spacing-1;
+    padding: 0;
+    padding-bottom: $spacing-2;
+    border: solid 1px $dc-color-gs-5;
+
+    .dc-stay-in-touch-block__header {
+      margin-bottom: 0;
+      padding: $spacing-2;
+      background: #efefef;
+    }
+
+    .dc-stay-in-touch-block__content {
+      padding: $spacing-2;
+
+      @media $desktop {
+        padding: $spacing-4;
+      }
+    }
+
+    .dc-expandable-text {
+      padding: 0 $spacing-2;
+    }
+  }
+
+  .dc-popup-content {
+    padding: $spacing-3;
+
+    .dc-list {
+      margin-top: $spacing-2;
+    }
+
+    .dc-icon {
+      color: $dc-color-buy;
+    }
+  }
+
+  .dc-transition-enter {
+    max-height: 0;
+    opacity: 0.1;
+
+    &.dc-transition-enter-active {
+      max-height: 400px;
+      opacity: 1;
+      transition: opacity 0.2s ease-in, max-height 0.2s ease-in;
+    }
+  }
+
+  .dc-transition-leave {
+    max-height: 400px;
+    opacity: 1;
+
+    &.dc-transition-leave-active {
+      max-height: 0;
+      opacity: 0.01;
+      transition: opacity 0.2s ease-in, max-height 0.2s ease-in;
+    }
+  }
+}

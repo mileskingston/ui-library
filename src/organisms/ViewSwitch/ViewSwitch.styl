@@ -1,0 +1,60 @@
+@import "../../style/constants";
+
+.dc-view-switch {
+  display: table;
+
+  .dc-view-switch-label {
+    display: table-cell;
+    vertical-align: middle;
+
+    @media $mobile {
+      display: none;
+    }
+  }
+
+  .dc-button-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+
+    &:first-of-type {
+      border-right: 2px solid $dc-color-gs-5;
+    }
+    &:last-of-type button {
+      padding-right: 0;
+    }
+  
+    .dc-view-switch-button {
+      display: table;
+      padding: 0 8px;
+      color: $currys-color;
+
+      @media $desktop {
+        padding-left: 13px;
+        padding-right: 13px;
+      }
+
+      .dc-button-text,
+      .dc-button-icon {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      &.dc-button-disabled {
+        color: $dc-color-gs-4;
+
+        .dc-icon {
+          fill: $dc-color-gs-4;
+          stroke: $dc-color-gs-4;
+        }
+      }
+    }
+
+    .dc-icon {
+      margin: 0 4px 0 0;
+      width: 25px;
+      height: 25px;
+      fill: $color-secondary-f-5;
+      stroke: $color-secondary-f-5;
+    }
+  }
+}

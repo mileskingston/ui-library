@@ -1,0 +1,30 @@
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+
+const iconMixin = (Base, icon, name) => {
+  const iconComponent = class extends Base {
+    render() {
+      return icon;
+    }
+  };
+
+  iconComponent.propTypes = {
+    children: PropTypes.any
+  };
+
+  iconComponent.displayName = name;
+
+  return iconComponent;
+};
+
+const height = 17;
+const width = 17;
+const onClick = undefined;
+const style = {};
+
+export default {
+  {% for icon in icons -%}
+    {{icon.name}}: iconMixin(PureComponent, {{icon.svg | safe}}, '{{icon.name}}'),
+  {% endfor -%}
+  clearSize: true
+}

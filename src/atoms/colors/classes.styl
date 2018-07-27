@@ -1,0 +1,27 @@
+@require "./variables.styl";
+
+for $level in (1..7) {
+
+  .dc-color-gs-{$level} {
+    color: lookup("$dc-color-gs-" + $level);
+  }
+
+}
+
+for $type in "primary" "link" "buy" "positive" "price" "alert" "message" {
+  .dc-color-{$type} {
+    color: lookup("$dc-color-" + $type);
+  }
+
+  .dc-color-{$type}-hover {
+    color: lookup("$dc-color-" + $type + "-hover");
+  }
+}
+
+.dc-color-dirty-yellow {
+  color: $dc-color-dirty-yellow;
+}
+
+.dc-color-carphone {
+  color: $dc-color-carphone;
+}

@@ -1,0 +1,186 @@
+@import "../../../style/constants";
+
+[data-component="Menu"] {
+  position: relative;
+  z-index: 3;
+  white-space: nowrap;
+  text-align: center;
+  list-style-type: disc;
+  background: $dc-color-gs-6;
+  display: none;
+  border-top: 1px solid $dc-color-gs-5;
+  border-bottom: 1px solid $dc-color-gs-5;
+}
+
+@media $gte-desktop {
+  [data-component="Menu"] {
+    display: block
+  }
+}
+
+[data-component="Menu"] [data-element="Item"] {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+[data-component="Menu"] [data-element="Link"] {
+  display: inline-block;
+  padding: 13px $spacing-xxs;
+  text-decoration: none;
+  font-weight: bold;
+  color: $dc-color-gs-2;
+
+  [data-component="Icon"] {
+    color: currentColor;
+    fill: currentColor;
+    stroke: currentColor;
+  }
+
+  svg {
+    stroke: none;
+  }
+}
+
+[data-component="Menu"] [data-element="Item"]:hover [data-element="Link"] {
+  color: $dc-color-gs-7;
+  background: $dc-color-primary-hover;
+  svg {
+    fill: $dc-color-gs-7;
+    stroke: none;
+  }
+}
+
+[data-component="Menu"] [data-element="Item"] [data-element="SubMenu"] {
+  position: absolute;
+  z-index: 1;
+  top: 42px;
+  right: 0;
+  left: 0;
+  display: none;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  border: 1px solid $dc-color-gs-5;
+  text-align: left;
+  background: $dc-color-gs-7;
+}
+
+[data-component="Menu"].subMenuActive [data-element="Item"]:hover [data-element="SubMenu"] {
+  display: block;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuColumn"] {
+  padding: 0 5px;
+  float: left;
+  width: 25%;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuColumn"] [data-component="Icon"] {
+  display: none;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuColumn"] a:hover [data-component="Icon"] {
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element='Features'] {
+  padding-top: 2px;
+  margin-bottom: -20px;
+  margin-left: -15px;
+  margin-right: -15px;
+  clear: both;
+  border-top: 1px solid #ccc;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element='Features']:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element='Features'] .feature {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuColumn"].SubMenuColumn--banners {
+  padding-top: 26px;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuColumn"].SubMenuColumn--banners a {
+  display: block;
+  margin-bottom: 30px;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuColumn"].SubMenuColumn--banners a img {
+  max-width: 100%;
+  height: auto;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > [data-element="SubMenuCategoryTitle"] {
+  display: block;
+  margin-bottom: 5px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $dc-color-gs-5;
+  font-size: 16px;
+  color: $dc-color-primary-hover;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > [data-element="SubMenuCategoryTitle"] a {
+  color: $dc-color-primary-hover;
+  text-decoration: none;
+  [data-component="Icon"] {
+    width: 13px;
+    height: 13px;
+    svg {
+      height: 13px;
+      fill: $dc-color-primary-hover;
+      color: $dc-color-primary-hover;
+    }
+  }
+}
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > [data-element="SubMenuCategoryTitle"] a:hover {
+  color: $dc-color-primary-hover;
+  text-decoration: underline;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > ul {
+  padding: 5px 0 1em 15px;
+  margin: .2em 0;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > ul li {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: $dc-color-gs-3;
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > ul li a {
+  color: $dc-color-gs-3;
+  text-decoration: none;
+  [data-component="Icon"] {
+    width: 13px;
+    height: 13px;
+    svg {
+      height: 13px;
+      fill: $dc-color-gs-3;
+      color: $dc-color-gs-3;
+    }
+  }
+}
+
+[data-component="Menu"] [data-element="SubMenu"] [data-element="SubMenuCategory"] > ul li a:hover {
+  color: $dc-color-primary-hover;
+  text-decoration: underline;
+  [data-component="Icon"] svg {
+    fill: $dc-color-primary-hover;
+    color: $dc-color-primary-hover;
+  }
+}

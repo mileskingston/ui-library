@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="-2 -2 20 8" xmlns="http://www.w3.org/2000/svg">
+    <g class="dc-icon--apply-fill dc-icon--no-stroke" fill="#000" fill-rule="evenodd">
+        <circle cx="8" cy="2" r="2"/>
+        <circle cx="14" cy="2" r="2"/>
+        <circle cx="2" cy="2" r="2"/>
+    </g>
+</svg>

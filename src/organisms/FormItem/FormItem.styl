@@ -1,0 +1,67 @@
+@import "../../style/constants";
+
+.dc-form-item {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+  width: 100%;
+
+  &.dc-hidden {
+    display: none;
+  }
+}
+
+.dc-form-item-label {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  z-index: 0;
+  padding: 0;
+  width: auto;
+  color: $dc-color-gs-3;
+  font-size: $font-size-xs;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+
+  .dc-input-icon + & {
+    left: 37px;
+  }
+}
+
+.dc-form-item-label-top {
+  z-index: 2;
+  padding: 0 3px;
+  background-color: $dc-color-gs-7;
+  transform: translateY(-21px);
+  font-size: $font-size-xxs;
+  transition: all 0.2s ease-in-out;
+
+  .dc-input-icon + & {
+    left: 14px;
+  }
+  
+  .dc-input-disabled + & {
+    background: linear-gradient(to bottom, $dc-color-gs-7, #f7f7f7);
+  }
+}
+.dc-form-item-in-progress {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  
+  .dc-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    
+    color: $dc-color-gs-4;
+    stroke: $dc-color-gs-4;
+  }
+}
+
+.dc-form-item-message {
+  margin: 5px 0;
+  transition: color 0.2s;
+}

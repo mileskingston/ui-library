@@ -1,0 +1,123 @@
+@import "../../style/constants";
+// TODO: add all required styles according to UX proposal
+
+.dc-compare-panel-product-tooltip {
+
+  .dc-compare-panel-product-tooltip__product-link:link {
+    text-decoration: none;
+  }
+
+  .dc-compare-panel-product-tooltip__product-link-wrapper {
+    padding: 0 $spacing-m $spacing-m $spacing-m;
+  }
+
+  .dc-compare-panel-product-tooltip__name {
+    color: $color-secondary-f-5;
+    font-size: $font-size-s;
+  }
+
+  .dc-compare-panel-product-tooltip__name:hover {
+    text-decoration: underline;
+  }
+
+  .dc-compare-panel-product-tooltip__bundle-list {
+    margin-top: $spacing-xxs;
+
+    .dc-list {
+      margin-left: $spacing-xxxxs;
+
+      .dc-list__item {
+        margin-top: $spacing-xxxxs;
+        color: $dc-color-gs-3;
+        font-size: $font-size-xxs;
+
+        .dc-icon {
+          width: 16px;
+          height: 16px;
+          fill: $dc-color-gs-3;
+          stroke: $dc-color-gs-3;
+        }
+      }
+    }
+  }
+
+  .dc-compare-panel-product-tooltip__bottom-part-flexbox-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: $spacing-s;
+  }
+
+  .dc-compare-panel-product-tooltip__image {
+    margin-right: $spacing-xxl;
+    width: 100px;
+    height: 90px;
+
+    img {
+      width: 100px;
+      height: 90px;
+    }
+  }
+
+  .dc-compare-panel-product-tooltip__right-panel {
+    flex-grow 1;
+    align-self: flex-end;
+    text-align: center;
+
+    .dc-compare-panel-product-tooltip__right-panel__out-of-stock {
+      margin-top $spacing-xxxs;
+
+      .dc-list {
+        display: inline-block;
+
+        .dc-list__item {
+          color: $dc-color-gs-3;
+
+          .dc-icon {
+            fill: $dc-color-gs-3;
+          }
+        }
+      }
+    }
+
+    .dc-compare-panel-product-tooltip__right-panel__email-me-back {
+      margin-top $spacing-xxxs;
+
+      .dc-list {
+        display: inline-block;
+
+        .dc-list__item:hover {
+          text-decoration: underline;
+        }
+
+        .dc-list__item {
+          color: $color-secondary-f-5;
+
+          .dc-icon {
+            fill: $color-secondary-f-5;
+          }
+        }
+      }
+    }
+
+    .dc-compare-panel-product-tooltip__right-panel__separate-sell-price {
+      margin-top $spacing-xxxs;
+      color: $dc-color-gs-3;
+    }
+  }
+
+}
+
+.dc.compare-panel-product-tooltip--hidden {
+  display: none;
+}
+
+// Fallback for ie9 to show correctly list items on one line
+.ie9 {
+  .dc-list {
+    .dc-list__item {
+      span:nth-of-type(2) {
+        display: inline;
+      }
+    }
+  }
+}

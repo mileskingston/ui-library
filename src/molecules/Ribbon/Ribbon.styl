@@ -1,0 +1,59 @@
+@import "../../style/constants";
+
+.dc-ribbon {
+  position: absolute;
+  top: 10px;
+  padding: 2px 10px 2px 10px;
+  font-size: 13px;
+  
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  
+  &.dc-ribbon--left {
+    left: -7px;
+    padding-left: 15px;
+    text-align: right;
+    
+    &:before {
+      transform: rotate(45deg);
+      left: 2px;
+    }
+  }
+  
+  &.dc-ribbon--right {
+    right: -7px;
+    padding-right: 15px;
+    text-align: left;
+  
+    &:before {
+      transform: rotate(-45deg);
+      right: 2px;
+    }
+  }
+  
+  &.dc-ribbon--default {
+    background-color: #e3e3e3;
+  
+    &:before {
+      border-bottom-color: #b8b8b8;
+    }
+  }
+  
+  &.dc-ribbon--info {
+    background-color: $dc-color-primary-hover;
+    color: #fff;
+    
+    &:before {
+      border-bottom-color: #090c3e;
+    }
+  }
+}

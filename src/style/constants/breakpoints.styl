@@ -1,0 +1,23 @@
+$mobile  = "only screen and (max-width: 599px)";
+$touch   = "only screen and (max-width: 1024px)";
+$tablet  = "only screen and (min-width: 600px) and (max-width: 1024px)";
+$tablet-max = "only screen and (max-width: 767px)";
+$tablet-min = "only screen and (min-width: 768px)";
+$desktop = "only screen and (min-width: 1025px)";
+$wide    = "only screen and (min-width: 1240px)";
+
+$mobile-layout-portrait = "only screen and (min-width: 1px) and (max-width: 599px)";
+// 812px is due to iPhone X which has the biggest CSS height
+$mobile-layout-landscape = "only screen and (min-width: 1px) and (max-width: 812px) and (orientation: landscape)";
+$tablet-layout-portrait = "only screen and (min-width: 600px) and (max-width: 1024px)";
+$tablet-layout-landscape = "only screen and (min-height: 600px) and (max-height: 1024px) and (orientation: landscape)";
+$desktop-layout = "only screen and (min-width: 1025px)";
+
+$gte-desktop = $desktop;
+$gte-tablet = $tablet-min;
+
+@stylint off
+foovar("src/style/constants/breakpoints.js", {
+  include: "(mobile|touch|tablet|desktop|wide)"
+});
+@stylint on

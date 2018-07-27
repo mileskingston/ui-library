@@ -1,0 +1,67 @@
+@import "../../style/constants";
+
+$arrow-size = 12;
+$arrow-offset = - ($arrow-size / 2) - 1;
+
+.dc-alert {
+  position: relative;
+  border-radius: 3px;
+  background-color: $dc-color-gs-7;
+  border: 1px solid $dc-color-gs-5;
+  text-align: left;
+}
+
+.dc-alert--shadow {
+  box-shadow: 0 3px 3px #ddd;
+}
+
+.dc-alert__arrow {
+  position: absolute;
+  display: block;
+  width: ($arrow-size)px;
+  height: @width;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-color: $dc-color-gs-5;
+  background-color: $dc-color-message-hover;
+}
+
+.dc-alert__arrow--none {
+  display: none;
+}
+
+.dc-alert__arrow--top {
+  left: 0;
+  top: ($arrow-offset)px;
+  margin-right: ($arrow-offset)px;
+  transform: rotate(-45deg);
+}
+.dc-alert__arrow--bottom {
+  left: 0;
+  bottom: ($arrow-offset)px;
+  transform: rotate(-225deg);
+}
+.dc-alert__arrow--left {
+  top: 0;
+  left: ($arrow-offset)px;
+  margin-top: ($arrow-offset)px;
+  transform: rotate(-135deg);
+}
+.dc-alert__arrow--right {
+  top: 0;
+  right: ($arrow-offset)px;
+  margin-top: ($arrow-offset)px;
+  transform: rotate(45deg);
+}
+
+.dc-alert__header {
+  padding: 15px;
+  background-color: $dc-color-message-hover;
+  border-bottom: 1px solid $dc-color-gs-5;
+  border-radius: 3px 3px 0 0;
+  font-weight: bold;
+  
+  @media $mobile {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../style/constants";
+
+.dc-header-search {
+  position: relative;
+  z-index: $z-index-below;
+  width: 100%;
+  border: 0;
+
+  &__suggestions {
+    position: absolute;
+    top: 100%;
+    right: 1px;
+    left: 1px;
+
+    @media $wide {
+      right: 13px;
+      left: 13px;
+    }
+  }
+
+  @media $desktop {
+    position: relative;
+    z-index: 0;
+  }
+}

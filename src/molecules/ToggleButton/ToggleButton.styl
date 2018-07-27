@@ -1,0 +1,28 @@
+@import "../../style/constants";
+
+.dc-button-wrapper .dc-toggle-button__active,
+.dc-button-wrapper .dc-toggle-button {
+  color: $dc-color-positive;
+  .dc-icon {
+    fill: $dc-color-gs-7;
+    stroke: $dc-color-gs-7;
+  }
+}
+
+.dc-button-wrapper .dc-toggle-button {
+  border-color: $dc-color-positive;
+  &:hover {
+    background-color: $dc-color-positive-hover;
+  }
+}
+
+.dc-button-wrapper .dc-toggle-button__active {
+  border-color: $dc-color-positive;
+  background-color: $dc-color-positive;
+  color: $dc-color-gs-7;
+  &:hover {
+    border-color: $dc-color-positive;
+    background-color: $dc-color-positive;
+    color: $dc-color-gs-7;
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" stroke="none">
+    <path d="M9.8632,1.744 C4.5616,1.744 0.2632,6.0424 0.2632,11.344 C0.2632,16.6464 4.5616,20.944 9.8632,20.944 C15.1656,20.944 19.4632,16.6464 19.4632,11.344 C19.4632,6.0424 15.1656,1.744 9.8632,1.744 L9.8632,1.744 Z M9.8632,19.344 C5.452,19.344 1.8632,15.7552 1.8632,11.344 C1.8632,6.9328 5.452,3.344 9.8632,3.344 C14.2744,3.344 17.8632,6.9328 17.8632,11.344 C17.8632,15.7552 14.2744,19.344 9.8632,19.344 L9.8632,19.344 Z"></path>
+    <text id="£" font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold">
+        <tspan x="5" y="17">£</tspan>
+    </text>
+</svg>

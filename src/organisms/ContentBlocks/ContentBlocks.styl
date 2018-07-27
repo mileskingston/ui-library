@@ -1,0 +1,54 @@
+@import "../../style/constants";
+
+
+.dc-content-blocks__wrapper {
+  background-color: transparent;
+  padding: 10px;
+
+  @media $desktop {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  @media $tablet {
+    padding: 15px;
+  }
+
+  .dc-box {
+    margin: 10px;
+
+    @media $mobile {
+      display: none;
+    }
+
+    @media $tablet {
+      display: none;
+    }
+  }
+
+  .dc-content-blocks {
+    padding: 0;
+    margin: 0;
+    -js-display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    .dc-content-block__wrapper {
+      display: inline-block;
+      width: (100/3)%;
+
+      @media $tablet {
+        width: 100%;
+      }
+
+      @media $mobile {
+        width: 100%;
+      }
+
+      .dc-content-block {
+        flex-grow: 1;
+      }
+    }
+  }
+}

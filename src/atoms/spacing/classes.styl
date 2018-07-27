@@ -1,0 +1,19 @@
+for $size in "1" "2" "3" "4" {
+  .dc-margin-{$size} {
+    margin: lookup("$spacing-" + $size);
+  }
+
+  .dc-padding-{$size} {
+    padding: lookup("$spacing-" + $size);
+  }
+
+  for $side in "top" "right" "bottom" "left" {
+    .dc-margin-{$side}-{$size} {
+      margin-{$side}: lookup("$spacing-" + $size);
+    }
+
+    .dc-padding-{$side}-{$size} {
+      padding-{$side}: lookup("$spacing-" + $size);
+    }
+  }
+}

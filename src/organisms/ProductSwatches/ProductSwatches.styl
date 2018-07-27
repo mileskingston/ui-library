@@ -1,0 +1,154 @@
+@import "../../style/constants";
+
+.dc-product-swatches {
+  margin-bottom: 10px;
+}
+
+.dc-product-swatches-title {
+  margin: 0 0 10px 5px;
+  display: block;
+  font-size: $font-size-xs;
+  line-height: $spacing-s;
+  color: $dc-color-gs-3;
+  position: relative;
+
+  .dc-product-swatches-tooltip-wrapper {
+    display: inline-block;
+    @media $desktop {
+      position: relative;
+    }
+  }
+
+  .dc-tooltip {
+    width: 300px;
+    left: 20px;
+    top: -43px;
+    margin: 0;
+
+    &:before {
+      top: 38px;
+    }
+  }
+
+  @media $touch {
+    .dc-tooltip {
+      width: 300px;
+      left: 0;
+      top: 30px;
+      margin: 0;
+
+      &:before {
+        top: -11px;
+        left: 30px;
+      }
+    }
+  }
+
+  @media $mobile {
+    .dc-tooltip {
+      box-sizing: border-box;
+    }
+    .dc-tooltip:before {
+      top: -9px;
+    }
+  }
+}
+
+.dc-product-swatches-title-help {
+  display: inline-block;
+  margin-left: 3px;
+  width: 1em;
+  height: 1em;
+  line-height: normal;
+  font-size: .92em;
+  font-weight: bold;
+  color: $color-secondary-f-5;
+  text-align: center;
+  border: 1px solid $color-secondary-f-5;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.dc-product-swatches-list {
+  margin-bottom: 0;
+}
+
+.dc-product-swatch {
+  position: relative;
+  display: inline-block;
+  margin: 0 8px 5px 0;
+  vertical-align: top;
+  width: 65px;
+  text-align: center;
+  @media $touch {
+    width: 75px;
+  }
+}
+
+.dc-product-swatch-image {
+  display: block;
+  border: 1px solid $color-primary-d-6-5;
+  border-radius: 3px;
+  width: 42px;
+  height: @width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dc-product-swatch-value {
+  text-decoration: none;
+  color: $dc-color-gs-1;
+  display: inline-block;
+  word-break: break-word;
+  padding-top: 4px;
+}
+
+.dc-product-swatch-link {
+  display: inline-block;
+  text-align: center;
+}
+
+.dc-product-swatch:hover,
+.dc-product-swatch-active {
+  .dc-product-swatch-image {
+    border: 2px solid $color-secondary-f-5;
+    border-radius: 3px;
+    width: 40px;
+    height: @width;
+  }
+}
+
+.dc-product-swatch-active {
+  .dc-product-swatch-link:before {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    content: "";
+    top: 33px;
+    left: 22px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: @border-left;
+    border-bottom: 10px solid $color-secondary-f-5;
+    @media $touch {
+      left: 27px;
+    }
+  }
+}
+
+.dc-product-swatch .dc-tooltip {
+  width: 190px;
+  left: -42px;
+  background-color: $dc-color-gs-7;
+  &:before {
+    background-color: $dc-color-gs-7;
+  }
+}
+
+.dc-product-tooltip-hover-bridge {
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  top: 40px;
+}

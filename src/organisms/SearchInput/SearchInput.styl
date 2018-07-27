@@ -1,0 +1,178 @@
+@import "../../style/constants";
+
+.dc-search-input-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  background-color: $dc-color-gs-7;
+  
+  .dc-search-input {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0;
+    padding: 13px $spacing-m;
+    width: 100%;
+    outline: 0;
+    border: 1px solid $dc-color-gs-4;
+    border-radius: 4px;
+    background-color: transparent !important;
+    box-shadow: none;
+    color: $dc-color-gs-2;
+    font-size: $font-size-xs;
+    transition: border 0.2s;
+    -webkit-appearance: none;
+    
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    // Remove default cross in IE
+    &::-ms-clear {
+      display: none;
+    }
+
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration {
+      display: none;
+      -webkit-appearance: none;
+    }
+  }
+
+  .dc-search-input-invalid {
+    border-color: $dc-color-price;
+  }
+
+  .dc-search-input-focused:focus {
+    border-color: $dc-color-alert;
+  }
+
+  .dc-search-input-valid {
+    border-color: $color-secondary-a-2;
+  }
+
+  .dc-search-input-disabled,
+  .dc-search-input-disabled:focus,
+  .dc-search-input-disabled:active {
+    border-color: #e1e1e1;
+    background-color: #f7f7f7 !important;
+    color: $dc-color-gs-2;
+    opacity: 1;
+    -webkit-opacity: 1;
+    -webkit-text-fill-color: $dc-color-gs-2; // @stylint ignore
+  }
+
+  .dc-search-input-password {
+    padding-right: 50px;
+  }
+
+  .dc-search-input-icon-left {
+    padding-left: $spacing-xxxl;
+  }
+
+  .dc-search-input-icon-right {
+    padding-right: $spacing-xxxxl;
+  }
+
+  .dc-search-input-hint {
+    display: block;
+    margin: 5px 0;
+    color: $dc-color-gs-3;
+    font-size: $font-size-xxs;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .dc-search-input-toggle {
+    position: absolute;
+    top: 14px;
+    right: 11px;
+    z-index: 3;
+    font-size: $font-size-xxs;
+  }
+
+  .dc-search-input-icon,
+  .dc-search-input-clear,
+  .dc-search-input-processing {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: $currys-color;
+    padding: 6px 9px;
+    z-index: 3;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+    .dc-icon {
+      width: 22px;
+      height: 22px;
+      fill: $dc-color-gs-7;
+      stroke: $dc-color-gs-5;
+    }
+
+    .dc-icon-search {
+      stroke: transparent;
+    }
+  }
+
+  .dc-search-input-clear {
+    right: 40px;
+    background-color: $dc-color-gs-7;
+    cursor: none;
+
+    .dc-icon {
+      fill: $currys-color;
+    }
+  }
+
+  .dc-search-input-processing {
+    background-color: $dc-color-gs-7;
+
+    .dc-icon {
+      fill: $currys-color;
+      stroke: $currys-color;
+    }
+  } 
+
+  .dc-form-item-label {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    z-index: 0;
+    padding: 0;
+    width: auto;
+    color: $dc-color-gs-3;
+    font-size: $font-size-xs;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .dc-form-item-label-top {
+    z-index: 2;
+    padding: 0 3px;
+    transform: translateY(-21px);
+    background-color: $dc-color-gs-7;
+    font-size: $font-size-xxs;
+    transition: all 0.2s ease-in-out;
+
+    .dc-input-icon + & {
+      left: 14px;
+    }
+
+    .dc-input-disabled + & {
+      background: linear-gradient(to bottom, $dc-color-gs-7, #f7f7f7);
+    }
+  }
+}

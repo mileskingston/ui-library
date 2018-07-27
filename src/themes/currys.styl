@@ -1,0 +1,33 @@
+@require "../atoms/colors/variables.styl";
+
+$theme = "currys";
+
+$dc-color-primary = #161B7A;
+$dc-color-primary-hover = #161B7A;
+
+$dc-color-link = #4855A0;
+$dc-color-link-hover = #161B7A;
+
+$dc-color-buy = #4E8130;
+$dc-color-buy-hover = #426E29;
+
+$dc-color-positive = #4E8130;
+$dc-color-positive-hover = #F0F6EB;
+
+$dc-color-price = #C90404;
+$dc-color-price-hover = #FFF2F2;
+
+$dc-color-alert = #EE9022;
+$dc-color-alert-hover = #FDEEDC;
+
+$dc-color-message = #4855A0;
+$dc-color-message-hover = #F5F7FD;
+
+// TODO: remove (this color is not in guidelines)
+$dc-color-light = #ECF5FF;
+
+@stylint off
+foovar("src/themes/currys.js", {
+  include: "^\$dc-"
+});
+@stylint on

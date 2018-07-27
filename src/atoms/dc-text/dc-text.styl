@@ -1,0 +1,52 @@
+@import "../../style/constants";
+
+.dc-text {
+  margin: 0 0 20px;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media $tablet {
+    margin: 0 0 18px;
+  }
+  
+  @media $mobile {
+    margin: 0 0 16px;
+  }
+}
+  
+.dc-text-small {
+  font-size: $font-size-xxs;
+}
+  
+.dc-text-center {
+  text-align: center;
+}
+  
+.dc-text-right {
+  text-align: right;
+}
+  
+.dc-text-light {
+  color: $dc-color-gs-3;
+}
+  
+.dc-text-nowrap {
+  white-space: nowrap;
+}
+  
+.dc-text-middle {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.dc-text-error {
+  margin: 5px 0;
+  color: $dc-color-price;
+}
+
+.dc-heading-text {
+  color: $dc-color-gs-2;
+}

@@ -1,0 +1,248 @@
+@import "../../style/constants";
+
+@media $mobile {
+  .header-toolbar li.account,
+  .header-toolbar [data-component="myAccountMenu"] {
+    position: static;
+  }
+}
+
+.dc-menu-wrapper {
+  position: relative;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  @media $mobile {
+    position: static;
+  }
+}
+
+.dc-menu-trigger {
+  position: relative;
+  z-index: 1001; // Higher by 1 then dc-menu
+  display: block;
+  overflow: hidden;
+  padding: 16px 15px 9px;
+  height: 48px;
+  border: 1px solid transparent;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: bold;
+  cursor: pointer;
+  transition: border $transition-time-s ease, color $transition-time-s ease;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  .dc-menu-opened & {
+    border-top-color: $dc-color-gs-5;
+    border-right-color: $dc-color-gs-5;
+    border-left-color: $dc-color-gs-5;
+    background-color: $dc-color-gs-7;
+  }
+
+  .dc-menu-closed & {
+    color: $dc-color-gs-2;
+
+    .dc-icon {
+      fill: @color;
+    }
+
+    @media $touch {
+
+      html[data-whatinput="touch"] &:hover {
+            color: #eee;
+      }
+
+      border-bottom-color: transparent;
+      color: #eee;
+      transition-duration: 0s;
+
+      .dc-icon {
+        fill: @color;
+      }
+    }
+  }
+
+  @media $tablet {
+    height: 46px;
+  }
+
+  @media $mobile {
+    height: 47px;
+  }
+
+  @media $tablet {
+    padding-top: 11px;
+    padding-bottom: 14px;
+    border-left-color: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.1);
+    color: $dc-color-gs-7;
+  }
+
+  @media $mobile {
+    padding-top: 13px;
+    padding-bottom: 11px;
+    border-right-color: rgba(255, 255, 255, 0.08);
+    border-left-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .dc-icon {
+    margin-right: 5px;
+    width: 17px;
+    height: @width;
+    stroke: none !important;
+    vertical-align: inherit;
+
+    @media $mobile {
+      margin-right: 0;
+      width: 18px;
+      height: @width;
+    }
+  }
+
+  .dc-menu-label {
+    vertical-align: text-bottom;
+  }
+}
+
+.dc-menu {
+  position: absolute;
+  top: 47px;
+  right: 0;
+  z-index: 1000; // Because site mega menu has 999
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  border: 0 solid $dc-color-gs-5;
+  justify-content: flex-start;
+  background: $dc-color-gs-7;
+  text-align: left;
+  transition: max-height $transition-time-s ease, border $transition-time-s ease;
+
+  .dc-menu-opened & {
+    max-height: 300px;
+    border-width: 1px;
+    border-color: $dc-color-gs-5;
+  }
+
+  @media $tablet {
+    top: 46px;
+    border-top: none;
+  }
+
+  @media $mobile {
+    top: 47px;
+    width: 100%;
+    border-top: none;
+  }
+
+  .dc-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 20px;
+    min-height: 41px;
+    border-left: none;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: $font-size-xs;
+    line-height: normal;
+
+    .dc-link-label {
+      display: block;
+      flex-grow: 2;
+      overflow: hidden;
+      padding: 0 8px;
+      text-overflow: ellipsis;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      .dc-link-label {
+        text-decoration: underline;
+      }
+    }
+
+    &.dc-link-disabled {
+      color: $dc-color-gs-4 !important;
+      cursor: default;
+
+      &:hover .dc-link-label {
+        text-decoration: none;
+      }
+
+      .dc-icon {
+        color: @color;
+        fill: @color;
+        stroke: @color;
+      }
+    }
+
+    @media $touch {
+      padding: 11px 10px 11px 15px;
+      border-bottom: 1px solid $dc-color-gs-5;
+    }
+  }
+
+  .dc-icon {
+    width: 22px;
+    height: @width;
+  }
+
+  .dc-icon-chevron-right {
+    margin-right: -5px;
+    width: 21px;
+    height: @width;
+  }
+
+  .dc-icon-cog {
+    margin-right: 3px;
+    width: 19px;
+    height: @width;
+  }
+    
+  .dc-icon-heart {
+    width: 20px;
+    stroke: none;
+    margin: 0 3px -3px -1px;
+  }
+
+  .dcg-icon-cog_new {
+    margin-right: 2px;
+  }
+
+  &--no-transitions {
+    .dc-menu, .dc-menu-trigger {
+      transition: none !important;
+    }
+  }
+}
+
+.dc-menu-item {
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  white-space: nowrap;
+  line-height: normal;
+
+  .dc-link {
+    border-bottom: 1px solid $dc-color-gs-5;
+  }
+
+  &:last-child {
+    .dc-link {
+      border: 0;
+    }
+  }
+}

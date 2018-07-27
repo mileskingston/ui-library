@@ -1,0 +1,249 @@
+[
+  {
+    "partialAddress": "Wolverdene Club, Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "Wolverdene Club, Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "Wolverdene Club",
+      "streetAlt": "Dene Road",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "1 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "1 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "1 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "3 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "3 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "3 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "Shape Contractor Ltd, 4 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "Shape Contractor Ltd, 4 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "Shape Contractor Ltd",
+      "streetAlt": "4 Dene Road",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "5 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "5 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "5 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "6 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "6 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "6 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "6a Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "6a Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "6a Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "6b Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "6b Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "6b Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "7 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "7 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "7 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "8 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "8 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "8 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "9 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "9 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "9 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "10 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "10 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "10 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "11a Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "11a Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "11a Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "17 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "17 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "17 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "19 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "19 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "19 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "21 Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "21 Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "21 Dene Road",
+      "streetAlt": "",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "Oliver \u0026 Sanders Insurance Brokers, Healey House, Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "Oliver \u0026 Sanders Insurance Brokers, Healey House, Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "Oliver \u0026 Sanders Insurance Brokers, Healey House",
+      "streetAlt": "Dene Road",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "Percussion Plus Ltd, Healey House, Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "Percussion Plus Ltd, Healey House, Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "Percussion Plus Ltd, Healey House",
+      "streetAlt": "Dene Road",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  },
+  {
+    "partialAddress": "Venture Security Management Ltd, Healey House, Dene Road, ANDOVER, Hampshire SP10 2AA",
+    "picklist": "Venture Security Management Ltd, Healey House, Dene Road, ANDOVER, Hampshire",
+    "postcode": "SP10 2AA",
+    "score": 100,
+    "fullAddress": true,
+    "addressInfo": {
+      "street": "Venture Security Management Ltd, Healey House",
+      "streetAlt": "Dene Road",
+      "city": "ANDOVER",
+      "county": "Hampshire"
+    }
+  }
+]

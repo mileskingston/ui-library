@@ -1,0 +1,102 @@
+@import "../../style/constants";
+
+.dc-product-price-block {
+  overflow: hidden;
+  padding: 5px;
+  border-top: 1px solid $dc-color-gs-5;
+  border-bottom: 1px solid $dc-color-gs-5;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: $font-size-s;
+
+
+
+  .dc-product-price-block__current-price {
+    color: $dc-color-price;
+    font-size: $font-size-m;
+    font-weight: $font-weight-bold;
+  }
+
+  .dc-product-price-block__was-and-save-prices {
+    font-size: $font-size-xxs;
+
+    .dc-product-price-block__was-and-save-prices__was-price {
+      color: $dc-color-gs-3;
+    }
+
+    .dc-product-price-block__was-and-save-prices__save-price {
+      color: $dc-color-gs-2;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  .dc-product-price-block__save-price {
+    color: $dc-color-gs-2;
+    font-size: $font-size-s;
+    font-weight: $font-weight-bold;
+  }
+
+  .dc-product-price-block-bundle {
+    margin-top: $spacing-xxxs;
+    color: $dc-color-gs-3;
+    font-size: $font-size-xxs;
+
+    .dc-product-price-block-bundle__now-and-save-prices__save-price {
+      color: $dc-color-gs-1;
+      font-size: $font-size-xs;
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+
+// when out of stock, all labels are grey
+.dc-product-price-block__out-of-stock {
+
+  .dc-product-price-block__current-price
+  .dc-product-price-block__save-price {
+    color: $dc-color-gs-5;
+  }
+
+  .dc-product-price-block__was-and-save-prices {
+    .dc-product-price-block__was-and-save-prices__was-price
+    .dc-product-price-block__was-and-save-prices__save-price  {
+      color: $dc-color-gs-5;
+    }
+  }
+
+  .dc-product-price-block-bundle {
+    color: $dc-color-gs-5;
+    .dc-product-price-block-bundle__now-and-save-prices__save-price {
+      color: $dc-color-gs-5;
+    }
+  }
+}
+
+.dc-product-price-block--compact {
+  line-height: 12px;
+  border-color: #d3d3d3;
+  
+  .dc-product-price-block__save-price,
+  .dc-product-price-block__current-price {
+    display: inline-block;
+    padding: 0 2px;
+    font-size: 13px;
+  }
+}
+
+.dc-product-price-block__drop-label {
+  height: 20px;
+  font-weight: bold;
+  line-height: 1.7;
+  background: #ffefef;
+  color: $dc-color-price;
+  text-align: center;
+  
+  .dc-icon {
+    margin-top: -6px;
+    fill: $dc-color-price;
+    width: 13px;
+    height: @width;
+  }
+}

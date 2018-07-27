@@ -1,0 +1,55 @@
+@import "../../style/constants";
+
+.dc-location-list {
+  background: #fff;
+  width: 380px;
+  max-height: 629px;
+  padding: 0px 12px 5px;
+  margin:0px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  border-top:1px solid #ccc;
+  border-left:1px solid #ccc;
+
+  &.dc-location-list__expand {
+    .dc-location-list-item {
+      @media $mobile {
+        display: block;
+      }
+    }
+  }
+
+  .dc-location-list__button {
+    text-align: center;
+    margin-top: 25px;
+    display: none;
+
+    @media $mobile {
+      display: block;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+  }
+
+  @media $tablet {
+    width: 343px;
+    height: 599px;
+    padding: 0px 10px 5px;
+  }
+
+  @media $mobile {
+    width: 100%;
+    position: static;
+    overflow-y: auto;
+    background-color: #f2f2f2;
+    height: auto;
+    padding: 0px 10px 5px;
+    border: none;
+    left: auto;
+    top: auto;
+  }
+}

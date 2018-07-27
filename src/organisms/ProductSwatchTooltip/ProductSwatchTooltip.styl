@@ -1,0 +1,76 @@
+@import "../../style/constants";
+
+.dc-product-tooltip-features {
+  color: $dc-color-gs-2;
+  list-style: none;
+  font-size: $font-size-xs;
+  padding-left: 0;
+  margin-bottom: 5px;
+  .dc-icon {
+    float: left;
+    fill: $dc-color-positive;
+  }
+}
+
+.dc-product-tooltip-feature {
+  text-align: left;
+  margin-bottom: 0;
+
+  &:before, &:after {
+    content ""
+    display table
+  }
+  &:after {
+    clear both
+  }
+}
+
+.dc-product-tooltip-feature-desc {
+  margin-left: 30px;
+  display: block;
+  margin-top: 5px;
+}
+
+.dc-product-tooltip-email-back {
+  font-size: $font-size-xs;
+  padding-top: 4px;
+  display: inline-block;
+}
+
+.dc-product-tooltip-price {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 6px 0;
+  font-size: $font-size-m;
+  font-weight: bold;
+  color: $dc-color-price;
+  clear: both;
+}
+
+.dc-product-tooltip-stock-info {
+  margin-top: 8px;
+  font-size: $font-size-xs;
+}
+
+.dc-product-tooltip-discount {
+  margin: 8px 0 8px 0;
+  font-size: $font-size-xs;
+}
+
+.dc-product-tooltip-was-price {
+  color: $dc-color-gs-3;
+}
+
+.dc-product-tooltip-saving {
+  font-weight: bold;
+  color: $dc-color-gs-2;
+}
+
+.dc-product-tooltip-link .dc-lazy-loaded-image__img {
+  max-width: 145px;
+  max-height: 180px;
+  height: 100%;
+  width: @height;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}

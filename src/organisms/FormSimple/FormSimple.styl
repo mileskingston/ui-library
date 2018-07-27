@@ -1,0 +1,35 @@
+@import "../../style/constants";
+
+.dc-form {
+  padding: 0 $spacing-xxxs;
+
+  .dc-box & {
+    margin: -10px;
+  }
+  
+  @media $tablet {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  @media $mobile {
+    padding-right: 0;
+    padding-left: 0;
+
+    .dc-text-small {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.dc-form-row {
+  margin-right: -10px;
+
+  &:last-child .dc-form-item {
+    padding-bottom: $spacing-xxs;
+  }
+  
+  .dc-form-item {
+    padding-right: 10px
+  }
+}

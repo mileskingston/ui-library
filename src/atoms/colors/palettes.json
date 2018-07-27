@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Brand theme palette",
+    "colors": [
+      {
+        "class": "dc-color-primary",
+        "variants": [
+          ".dc-color-primary",
+          "$dc-color-primary"
+        ]
+      },
+      {
+        "class": "dc-color-primary-hover",
+        "variants": [
+          ".dc-color-primary-hover",
+          "$dc-color-primary-hover"
+        ]
+      },
+      {
+        "class": "dc-color-link",
+        "variants": [
+          ".dc-color-link",
+          "$dc-color-link"
+        ]
+      },
+      {
+        "class": "dc-color-link-hover",
+        "variants": [
+          ".dc-color-link-hover",
+          "$dc-color-link-hover"
+        ]
+      },
+      {
+        "class": "dc-color-buy",
+        "variants": [
+          ".dc-color-buy",
+          "$dc-color-buy"
+        ]
+      },
+      {
+        "class": "dc-color-buy-hover",
+        "variants": [
+          ".dc-color-buy-hover",
+          "$dc-color-buy-hover"
+        ]
+      },
+      {
+        "class": "dc-color-message",
+        "variants": [
+          ".dc-color-message",
+          "$dc-color-message"
+        ]
+      },
+      {
+        "class": "dc-color-message-hover",
+        "variants": [
+          ".dc-color-message-hover",
+          "$dc-color-message-hover"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Other colors",
+    "colors": [
+      {
+        "class": "dc-color-positive",
+        "variants": [
+          ".dc-color-positive",
+          "$dc-color-positive"
+        ]
+      },
+      {
+        "class": "dc-color-positive-hover",
+        "variants": [
+          ".dc-color-positive-hover",
+          "$dc-color-positive-hover"
+        ]
+      },
+      {
+        "class": "dc-color-price",
+        "variants": [
+          ".dc-color-price",
+          "$dc-color-price"
+        ]
+      },
+      {
+        "class": "dc-color-price-hover",
+        "variants": [
+          ".dc-color-price-hover",
+          "$dc-color-price-hover"
+        ]
+      },
+      {
+        "class": "dc-color-alert",
+        "variants": [
+          ".dc-color-alert",
+          "$dc-color-alert"
+        ]
+      },
+      {
+        "class": "dc-color-alert-hover",
+        "variants": [
+          ".dc-color-alert-hover",
+          "$dc-color-alert-hover"
+        ]
+      },
+      {
+        "class": "dc-color-dirty-yellow",
+        "variants": [
+          ".dc-color-dirty-yellow",
+          "$dc-color-dirty-yellow"
+        ]
+      },
+      {
+        "class": "dc-color-carphone",
+        "variants": [
+          ".dc-color-carphone",
+          "$dc-color-carphone"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Greyscale colors",
+    "colors": [
+      {
+        "class": "dc-color-gs-1",
+        "variants": [
+          ".dc-color-gs-1",
+          "$dc-color-gs-1"
+        ]
+      },
+      {
+        "class": "dc-color-gs-2",
+        "variants": [
+          ".dc-color-gs-2",
+          "$dc-color-gs-2"
+        ]
+      },
+      {
+        "class": "dc-color-gs-3",
+        "variants": [
+          ".dc-color-gs-3",
+          "$dc-color-gs-3"
+        ]
+      },
+      {
+        "class": "dc-color-gs-4",
+        "variants": [
+          ".dc-color-gs-4",
+          "$dc-color-gs-4"
+        ]
+      },
+      {
+        "class": "dc-color-gs-5",
+        "variants": [
+          ".dc-color-gs-5",
+          "$dc-color-gs-5"
+        ]
+      },
+      {
+        "class": "dc-color-gs-6",
+        "variants": [
+          ".dc-color-gs-6",
+          "$dc-color-gs-6"
+        ]
+      },
+      {
+        "class": "dc-color-gs-7",
+        "variants": [
+          ".dc-color-gs-7",
+          "$dc-color-gs-7"
+        ]
+      }
+    ]
+  }
+]

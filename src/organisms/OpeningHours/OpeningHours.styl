@@ -1,0 +1,110 @@
+@import "../../style/constants";
+
+$store-address-color = #000;
+$regular-day-color = #666;
+$opened-color = #4e8130;
+
+.dc-opening-hours__table {
+  font-size: 13px;
+  font-weight: normal;
+  td, th {
+    color: $regular-day-color;
+    white-space: nowrap;
+  }
+  th {
+    padding: 0;
+    font-weight: normal;
+    text-align: left;
+  }
+  
+  .dc-opening-hours__store-address {
+    width: 1px;
+    white-space: normal;
+  }
+
+  .dc-opening-hours__store-address-text {
+    margin-bottom: 5px;
+    color: $store-address-color;
+  }
+}
+
+.dc-opening-hours__table.state-open {
+  .dc-opening-hours__first-day {
+    td {
+      color: $opened-color;
+    }
+  }
+
+  .dc-opening-hours__opening-tooltip {
+    background: $opened-color;
+  }
+}
+
+.dc-opening-hours__opening-tooltip {
+  margin-left: 20px;
+  padding: 1px 12px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 13px;
+  background: #666;
+}
+
+.dc-opening-hours__opening-day {
+  width: 132px;
+  @media $tablet {
+    width: 100px;
+  }
+  @media $mobile {
+    width: 100px;
+  }
+}
+
+.dc-opening-hours__first-day {
+  font-weight: 700;
+}
+
+.dc-opening-hours__opening-time {
+  padding-left: 20px;
+}
+
+.dc-opening-hours__date-short {
+  @media $desktop {
+    display: none;
+  }
+
+  @media $tablet {
+    display: none;
+  }
+
+  @media $mobile {
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+.dc-opening-hours__date-long {
+  @media $mobile {
+    display: none;
+  }
+}
+
+.dc-opening-hours__time-from {
+  display: inline-block;
+  width: 33px;
+  text-align: right;
+}
+
+.dc-opening-hours__time-to {
+  display: inline-block;
+  width: 33px;
+  text-align: left;
+}
+
+.dc-opening-hours__time-separator {
+  font-weight: normal;
+}
+
+.dc-opening-hours__opening-time__text {
+  white-space: nowrap;
+}
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g fill-rule="evenodd">
+        <g transform="translate(6 3.2)">
+            <circle class="dc-icon--apply-fill" cx="2" cy="1.143" r="1.143"/>
+            <rect class="dc-icon--aplly-fill" width="2.286" height="6.2" x=".857" y="3.1" rx="1.143"/>
+        </g>
+        <path class="dc-icon--apply-fill" d="M7.93.127a7.68 7.68 0 1 0-.001 15.36 7.68 7.68 0 0 0 0-15.36zm0 14.08a6.407 6.407 0 0 1-6.4-6.4c0-3.53 2.87-6.4 6.4-6.4 3.528 0 6.4 2.87 6.4 6.4 0 3.529-2.872 6.4-6.4 6.4z"/>
+    </g>
+</svg>

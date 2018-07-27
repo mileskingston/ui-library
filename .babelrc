@@ -1,0 +1,27 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "targets": {
+        "browsers": [
+          "last 5 versions",
+          "not IE < 9"
+        ]
+      }
+    }],
+    "stage-1"
+  ],
+  "plugins": [
+    "syntax-async-functions",
+    "transform-regenerator"
+  ],
+  "env": {
+    "node": {
+      "plugins": [
+        [
+          "babel-plugin-transform-require-ignore", { "extensions": [".styl"] }
+        ]
+      ]
+    }
+  }
+}

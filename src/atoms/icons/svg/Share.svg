@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 16">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="2.5" cy="6.5" r="2.5" />
+        <circle cx="9.5" cy="2.5" r="2.5" />
+        <circle cx="9.5" cy="10.5" r="2.5" />
+        <path strokeLinecap="square" d="M2.5 6.5l7-4M9.5 10.5l-7-4"/>
+    </g>
+</svg>

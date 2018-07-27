@@ -1,0 +1,120 @@
+@import "../../style/constants";
+
+.dc-compare-panel {
+  display: flex;
+  flex-direction: row;
+  margin: $spacing-xxs 0 $spacing-xxxxs 0;
+  padding: $spacing-xxs $spacing-m;
+  width: calc(100% - 40px);
+  background-color: $dc-color-message-hover;
+
+  @media $mobile {
+    display: none;
+  }
+
+  .dc-compare-panel-heading {
+    float: left;
+    margin-right: $spacing-m;
+    padding-top: 14px;
+    font-size: $font-size-xs;
+
+    @media $tablet-max {
+      display: none;
+    }
+  }
+
+  .dc-compare-panel-item {
+    position: relative;
+    flex: 0 0 66px;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 $spacing-m;
+    max-width: 66px;
+    text-align: center;
+
+    &:nth-of-type(2) {
+      @media $tablet-max {
+        margin-left: 0;
+      }
+    }
+
+    &.dc-compare-panel-item-empty {
+      height: 48px;
+      border: 1px dashed $dc-color-gs-5;
+      border-radius: $border-radius;
+      background-color: $dc-color-gs-7;
+    }
+
+    .dc-button-link {
+      margin-top: 7px;
+    }
+  }
+
+  .dc-compare-panel-button {
+    float: left;
+    margin-left: $spacing-m;
+    
+    button {
+      min-height: 47px;
+      width: auto;
+    }
+  }
+
+  .dc-button {
+    font-weight: $font-weight-normal;
+    font-size: $font-size-xs;
+  }
+
+  /* tooltip */
+  .dc-compare-panel-product__tooltip {
+    left: 50%;
+    position: absolute;
+    top: "calc(100% + %s - %spx)" % ($spacing-xxs $arrow-offset);
+    -ms-transform : translateX(-50%); // added due to IE9 support
+    transform : translateX(-50%);
+    width: 549%;
+  }
+}
+
+[data-component|=compare-panel] {
+  &.dc-sticky {
+    display: block;
+    position: static;
+    width: 100%;
+    transition: all 0.15s ease-in-out;
+
+    @media $mobile-layout-landscape {
+      display: none;
+    }
+
+    &:before, &:after {
+      display: none;
+    }
+  }
+
+  &.dc-sticky-hidden,
+  &.dc-sticky-sticked {
+    position: fixed;
+
+    @media $mobile-layout-landscape {
+      display: none;
+    }
+  }
+
+  &.dc-sticky-sticked {
+    padding: 0;
+
+    .dc-compare-panel {
+      margin: 0 0 5px 0;
+    }
+  }
+}
+
+.ie9 {
+  .dc-compare-panel {
+    display: inline-block;
+  }
+  .dc-compare-panel-item {
+    width: 66px;
+  }
+}

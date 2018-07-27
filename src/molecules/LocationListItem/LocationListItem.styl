@@ -1,0 +1,140 @@
+@import "../../style/constants";
+
+.dc-location-list-item {
+  padding: 5px 0px;
+  display: block;
+  width: 100%;
+
+  .dc-location-list-item__text {
+    .dc-heading {
+      .dc-heading-text {
+        color: #4855a0;
+      }
+    }
+  }
+
+  &.dc-location-list-item__closest {
+    padding-bottom:0px;
+
+    .dc-location-list-item__content {
+      border-color: #161b7a;
+
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 6px;
+        left: -1px;
+        top: 0px;
+        background: #4854a0;
+      }
+
+      .dc-icon.dc-icon-location-pin {
+        fill: #4854a0;
+      }
+    }
+  }
+
+  .dc-location-list-item__content {
+    border: 1px solid #979797;
+    display: block;
+    background: #fff;
+    font-size: 13px;
+    color: #333;
+    line-height: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 18px 8px 46px;
+    position: relative;
+
+    &:hover
+    &.dc-location-list-item__is-active {
+      background: #f5f7fd;
+    }
+
+    @media $mobile {
+      padding-right:16px;
+    }
+
+    h3 {
+      margin:0px;
+    }
+
+    .dc-icon {
+      fill: #4854a0;
+      stroke: none;
+    }
+
+    .dc-icon.dc-icon-location-pin {
+      position: absolute;
+      top: 11px;
+      left: 13px;
+      width: 22px;
+      height: 30px;
+      fill: #fff;
+      stroke: #4854a0;
+    }
+
+    .dc-icon.dc-icon-chevron-right {
+      position: absolute;
+      top: 50%;
+      right: -3px;
+      width: 24px;
+      margin-top -13px;
+    }
+
+    .dc-location-list-item__address {
+      display: block;
+      margin: 2px 0px 1px 0px;
+    }
+
+    .dc-location-list-item__description {
+      color: #666;
+      font-size: 12px;
+      display: block;
+      margin: 2px 0px 1px 0px;
+    }
+
+    .dc-location-list-item__text {
+      position: relative;
+      display: block;
+      padding-right: 10px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 8px;
+        bottom: 8px;
+        right: -1px;
+        width: 1px;
+        background: #ccc;
+      }
+    }
+
+    .dc-opening-hours__opening-day {
+      display: none;
+    }
+
+    .dc-opening-hours__opening-time {
+      padding-left: 0;
+    }
+  }
+
+  .dc-location-list-item__title {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 0px;
+    color: #333;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  @media $mobile {
+    display: none;
+
+    &.dc-location-list-item__mobileVisible {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.dc-search-fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  &__hidden {
+    visibility: hidden;
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__submit-button {
+    max-width: 85px;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .dc-input-wrapper .dc-input {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-appearance: none;
+
+    &::-webkit-search-cancel-button {
+      display: none;
+    }
+
+    &__clear-icon {
+      right: 85px;
+      color: $dc-color-gs-4;
+    }
+  }
+}
+
